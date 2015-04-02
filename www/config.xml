@@ -16,5 +16,15 @@
 
 	<icon src="res/icon/field-guide-icon64.png" />
 	
+	<gap:splash src="res/screen/field-guide-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="res/screen/field-guide-iphone-retina-portrait.png" gap:platform="ios" width="1536" height="2008" />
+	<gap:splash src="res/screen/field-guide-ipad-portrait.png" gap:platform="ios" width="768" height="1004" />
+	<gap:splash src="res/screen/field-guide-ipad-retina-portrait.png" gap:platform="ios" width="640" height="960" />
+
+	<gap:splash src="res/screen/field-guide-android-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi" />
+	<gap:splash src="res/screen/field-guide-android-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi" />
+	<gap:splash src="res/screen/field-guide-android-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi" />
+	<gap:splash src="res/screen/field-guide-android-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" />
+
 	<gap:splash src="res/icon/field-guide-icon256.png" width="256" height="256" />
 </widget>

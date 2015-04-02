@@ -18,6 +18,7 @@ body {
     font-family:'HelveticaNeue', Helvetica, Arial, sans-serif;
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     background-color: #1c2923;
+	-webkit-text-size-adjust: none;
 }
 
 nav {
@@ -89,9 +90,9 @@ div .show {
 
 #taxa-list h2 {
 	color: #ffffff;
-	font-size: 1.285em;
+	font-size: 17px; /*1.285em*/
 	width: 82%;
-	text-overflow: ellipsis;
+	text-overflow: ellipsis; /*May need to do more styling to get this to work*/
 	overflow: hidden;
 }
 
