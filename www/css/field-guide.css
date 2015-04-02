@@ -48,8 +48,9 @@ nav {
 */
 #pages {
 	position:absolute;
-	top: 4.7em; /*3.583em*/
+	top: 8.55em; /* to start BELOW top navigation bar */
 	width: 100%;
+	padding-bottom: 8.55em; /* so content is not hidden by bottom navigation bar */
 }
 
 /*  ---------------------------------------------  */
@@ -165,7 +166,8 @@ header {
 	color: #ffffff; /* white */
 /*	font-size: 1.05em; /* a little larger than button font */
 /*	padding: 0.5em 0.785em 0.714em;*/
-	padding: 0.8em 0;/*matches top-bar-list a*/
+	font-size: 1.2em;
+	padding: 0.57em 0;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	text-align: center;

@@ -79,6 +79,13 @@
 	"description": "This is the description of B. castor",
 	"distribution": "Distribution details (including habitat) for B. castor"
 }, {
+	"id": 22,
+	"name": "Bembidion arenobilis",
+	"parentid": "4",
+	"category": "terminal",
+	"description": "Bembidion arenobilis is so similar to B. honestum that I originally hesitated to describe it as a distinct species. However, the populations of B. honestum (James river, Virginia) that are closest to those of B. arenobilis (roanoke river watershed, Virginia) show no sharing of genes, and these populations are distinct morphologically from one another. Virginia B. arenobilis are duller because of the more deeply-impressed microsculpture, with lateral margins of prothoraces more sinuate and with hind angles more acute, and with paler legs, usually having rufous femora; for further details see the diagnosis of B. honestum.",
+	"distribution": "From the Roanoke River drainage in Virginia south in the Piedmont through North Carolina, South Carolina, Alabama, and Mississippi."
+}, {
 	"id": 13,
 	"name": "Lionepha erasa",
 	"parentid": "3",

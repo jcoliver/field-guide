@@ -235,6 +235,8 @@ function showTaxon(taxonId) {
 		dataText.appendChild(dataTextValue);
 		aboutDiv.append(dataTitle);
 		aboutDiv.append(dataText);
+		var br = $("<br />");
+		aboutDiv.append(br);
 	}
 	if (dataObject[taxonId].distribution.length > 0) {
 		var title = "Distribution";
@@ -248,6 +250,8 @@ function showTaxon(taxonId) {
 		dataText.appendChild(dataTextValue);
 		aboutDiv.append(dataTitle);
 		aboutDiv.append(dataText);
+		var br = $("<br />");
+		aboutDiv.append(br);
 	}
 
 	// #media
