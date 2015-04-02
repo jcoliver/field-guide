@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+		xmlns:gap	= "http://phonegap.com/ns/1.0"
+		id			= "org.field-guide.bembidion"
+		versionCode	= "1"
+		version		= "1.0.0" >
+
+	<name>Field Guide to Bembidion</name>
+
+	<description>An app for Bembidion</description>
+
+	<author email="jeffrey.oliver@science.oregonstate.edu">Jeffrey Oliver</author>
+
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+
+	<icon src="res/icon/field-guide-icon64.png" />
+	
+	<gap:splash src="res/icon/field-guide-icon256.png" width="256" height="256" />
+</widget>
