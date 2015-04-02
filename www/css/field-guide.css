@@ -90,7 +90,7 @@ div .show {
 
 #taxa-list h2 {
 	color: #ffffff;
-	font-size: 17px; /*1.285em*/
+	font-size: 34px; /*1.285em*/
 	width: 82%;
 	text-overflow: ellipsis; /*May need to do more styling to get this to work*/
 	overflow: hidden;
@@ -191,7 +191,7 @@ footer {
 	width: 100%;
 	display: block;
 	clear: both;
-	font-size: 1.285em;
+	font-size: 3em; /*1.285em*/
 	font-weight: bold;
 }
 #bottom-bar-list {
