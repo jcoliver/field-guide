@@ -68,6 +68,7 @@ div .show {
 /*  ---------------------------------------------  */
 #taxa-list {
 	background: #375045;
+	font-size: 3.1em; /*1.285em*/
 }
 
 #taxa-list li {
@@ -82,7 +83,8 @@ div .show {
 
 #taxa-list a {
 	display: block;
-	padding: 0.5em 0.785em 0.714em;
+/*	padding: 0.5em 0.785em 0.714em;*/
+	padding: 1.1em 0.785em;
 	position: relative;
 	text-decoration: none;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 1px;
@@ -90,8 +92,8 @@ div .show {
 
 #taxa-list h2 {
 	color: #ffffff;
-	font-size: 3em; /*1.285em*/
 	width: 82%;
+/*	font-size: 3.1em; /*1.285em*/
 	text-overflow: ellipsis; /*May need to do more styling to get this to work*/
 	overflow: hidden;
 }
@@ -126,7 +128,7 @@ header {
 	width: 100%;
 	display: block;
 	clear: both;
-	font-size: 1.1em; /*2.8em*/
+	font-size: 3.1em; /*1.1em*/
 	font-weight: bold;
 }
 #top-bar-list {
