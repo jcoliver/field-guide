@@ -1,3 +1,63 @@
 <!DOCTYPE html>
-<html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js"><!--<![endif]-->
+    <head>
+		<!-- These four meta tags were auto-generated when project started -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<!-- end auto-generated meta tags -->
+		
+        <link rel="stylesheet" type="text/css" href="css/field-guide.css" media="screen"/>
+        <title>Field Guide</title>
+    </head>
+    <body>
+        <div class="app">
+			<header id = "top-bar">
+				<ul id = "top-bar-list">
+					<li  id = "back-button" class = "top-button"> <!-- Back -->
+					</li>
+					<li id = "content-title-item"> <!-- Title of current content -->
+						<h2 id = "content-title">Field Guide</h2>
+					</li>
+					<li  id = "home-button" class = "top-button"> <!-- Home -->
+					</li>
+				</ul>
+			</header> <!-- end top-bar header -->
+        	<div id="pages">
+				<div id="taxa" class="current">
+					<ul id="taxa-list">
+					</ul>
+					<!-- a template for the taxa list -->
+					<div id="taxa-template" style="display:none;">
+						<li>
+							<a href="#">
+								<h2></h2>
+								<span class="advance"></span>
+							</a>
+						</li>
+					</div>
+				</div>
+				<div id="taxon">
+					<div id="taxon-template">
+						<h2 class = "taxon-title"></h2> <!-- put name here -->
+						<!-- <div id = "about" class = "show"></div> -->
+						<!-- <div id = "media" class = "hide"></div> -->
+					</div> <!-- end taxon-template div -->
+				</div> <!-- end taxon div -->
+			</div> <!-- end pages div -->
+			<footer id = "bottom-bar">
+				<ul id = "bottom-bar-list">
+					<li id = "about-button"> <!-- About -->
+					</li>
+					<li id = "media-button"> <!-- Media -->
+					</li>
+				</ul>
+			</footer>
+        </div> <!-- end app div -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/jquery-1.11.2.min.js"></script> <!-- Works, while the mobile jQuery does not -->
+        <script type="text/javascript" src="js/field-guide.js"></script>
+    </body>
 </html>
