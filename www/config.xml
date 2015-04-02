@@ -3,7 +3,7 @@
 		xmlns:gap	= "http://phonegap.com/ns/1.0"
 		id			= "org.field-guide.bembidion"
 		versionCode	= "1"
-		version		= "1.0.1" >
+		version		= "1.0.2" >
 
 	<name>Field Guide to Bembidion</name>
 
