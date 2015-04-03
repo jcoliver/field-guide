@@ -55,6 +55,7 @@ function showTaxaList(parentId) {
 			child.remove();
 		}
 	}
+	taxonElement.removeClass("current");
 	
 	setupTopNav(parentId, true);
 
