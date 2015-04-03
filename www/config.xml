@@ -45,5 +45,6 @@
 	<gap:splash src="res/screen/field-guide-android-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi" />
 	<gap:splash src="res/screen/field-guide-android-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" />
 
+	<icon src="res/icon/icon-android-96.png" width="96" height="96" />
 	<gap:splash src="res/screen/field-guide-android-ldpi-portrait.png" width="200" height="320" />
 </widget>
