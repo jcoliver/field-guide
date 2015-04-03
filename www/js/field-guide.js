@@ -196,7 +196,9 @@ function addColorClick(id) {
 
 function showTaxon(taxonId) {
 	// Clear out event listeners
+	$("#back-button").empty();
 	$("#back-button").off("click");
+	$("#home-button").empty();
 	$("#home-button").off("click");
 	$("#about-button").off("click");
 	$("#media-button").off("click");
@@ -204,7 +206,6 @@ function showTaxon(taxonId) {
 	// Need to make the taxa-list invisible
 	$("#taxa").removeClass("current");
 
-	$("#taxon").removeClass("hide");
 	$("#taxon").addClass("current");
 	var parentId = dataObject[taxonId].parentid;
 	var theTaxon = $("#taxon-template").clone();
