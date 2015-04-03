@@ -50,11 +50,19 @@ function showTaxaList(parentId) {
 	var taxonElement = $("#taxon");
 	var taxonChildren = taxonElement.children();
 	for (var ic = 0; ic < taxonChildren.length; ic++) {
+/*
+		if (taxonChildren[ic].attr("id") != "taxon-template") {
+			
+		}
+*/		
 		var child = taxonChildren[ic];
 		if (child.id != "taxon-template") {
-			child.remove();
+//		if (child.attr("id") != "taxon-template") {
+			child.parentNode.removeChild(child);
+//			child.remove();
 		}
 	}
+	
 	taxonElement.removeClass("current");
 	
 	setupTopNav(parentId, true);
@@ -93,6 +101,7 @@ function showTaxaList(parentId) {
 }
 
 function addTaxaListEvent(eventTargetId, taxaId) {
+	$("#" + eventTargetId).off(); // remove any previous listenter
 	$("#" + eventTargetId).on("click", function() {
 		//console.log("Clicked on id " + eventTargetId + " targeting taxa id " + taxaId);
 		showTaxaList(taxaId);
@@ -100,6 +109,7 @@ function addTaxaListEvent(eventTargetId, taxaId) {
 }
 
 function addTaxonEvent(id) {
+	$("#" + id).off(); // remove any previous listener
 	$("#" + id).on("click", function() {
 		// console.log("Clicked on taxon id " + id);
 		showTaxon(id);
@@ -170,6 +180,7 @@ function addBottomButton(elementId, name, targetElementId) {
 }
 
 function addAboutEvent() {
+	$("#about-button").off("click"); // remove any previous listener
 	$("#about-button").on("click", function() {
 		// when clicking on about, show that and hide media
 		$("#media").removeClass("current");
@@ -178,6 +189,7 @@ function addAboutEvent() {
 }
 
 function addMediaEvent() {
+	$("#media-button").off("click"); // remove any previous listener
 	$("#media-button").on("click", function() {
 		// when clicking on media, show that and hide about
 		$("#about").removeClass("current");
@@ -196,12 +208,10 @@ function addColorClick(id) {
 
 function showTaxon(taxonId) {
 	// Clear out event listeners
-	$("#back-button").empty();
 	$("#back-button").off("click");
-	$("#home-button").empty();
 	$("#home-button").off("click");
-	$("#about-button").off("click");
-	$("#media-button").off("click");
+//	$("#about-button").off("click");
+//	$("#media-button").off("click");
 
 	// Need to make the taxa-list invisible
 	$("#taxa").removeClass("current");
@@ -213,7 +223,7 @@ function showTaxon(taxonId) {
 	theTaxon.addClass("current");
 	var headerItem = theTaxon.find("h2");
 	headerItem.text(dataObject[taxonId].name);
-	$("#taxon").append(theTaxon);
+//	$("#taxon").append(theTaxon);
 
 	// Will have two content divs, about and media
 	// about will be shown, media will be hidden
@@ -264,11 +274,11 @@ function showTaxon(taxonId) {
 	var mediaElementValue = document.createTextNode("Placeholder for media data");
 	mediaElement.appendChild(mediaElementValue);
 	mediaDiv.append(mediaElement);
-//	mediaDiv.addClass("hide");
 
 	// Add those two divs and make the content visible by setting parent div to class = current
-	$("#taxon").append(aboutDiv);
-	$("#taxon").append(mediaDiv);
+	theTaxon.append(aboutDiv);
+	theTaxon.append(mediaDiv);
+	$("#taxon").append(theTaxon);
 	$("#taxon").addClass("current");
 
 	setupTopNav(parentId, false);

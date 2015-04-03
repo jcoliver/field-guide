@@ -3,7 +3,7 @@
 		xmlns:gap	= "http://phonegap.com/ns/1.0"
 		id			= "org.field-guide.bembidion"
 		versionCode	= "1"
-		version		= "1.0.8" >
+		version		= "1.0.9" >
 
 	<name>Field Guide to Bembidion</name>
 
@@ -47,5 +47,4 @@
 
 	<icon src="res/icon/icon-android-96.png" width="96" height="96" />
 	<gap:splash src="res/screen/field-guide-android-hdpi-portrait.png" width="480" height="800" />
-	<gap:splash src="res/screen/field-guide-android-ldpi-portrait.png" width="200" height="320" />
 </widget>
