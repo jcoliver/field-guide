@@ -3,7 +3,7 @@
 		xmlns:gap	= "http://phonegap.com/ns/1.0"
 		id			= "org.field-guide.bembidion"
 		versionCode	= "1"
-		version		= "1.0.6" >
+		version		= "1.0.7" >
 
 	<name>Field Guide to Bembidion</name>
 
@@ -14,7 +14,26 @@
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 
-	<icon src="res/icon/field-guide-icon64.png" />
+	<icon src="res/icon/icon-ios-small.png" gap:platform="ios" width="29" height="29" />
+	<icon src="res/icon/icon-ios-small@2x.png" gap:platform="ios" width="58" height="58" />
+	<icon src="res/icon/icon-ios-40.png" gap:platform="ios" width="40" height="40" />
+	<icon src="res/icon/icon-ios-40@2x.png" gap:platform="ios" width="80" height="80" />
+	<icon src="res/icon/icon-ios-50.png" gap:platform="ios" width="50" height="50" />
+	<icon src="res/icon/icon-ios-50@2x.png" gap:platform="ios" width="100" height="100" />
+	<icon src="res/icon/icon-ios.png" gap:platform="ios" width="57" height="57" />
+	<icon src="res/icon/icon-ios@2x.png" gap:platform="ios" width="114" height="114" />
+	<icon src="res/icon/icon-ios-60@3x.png" gap:platform="ios" width="180" height="180" />
+	<icon src="res/icon/icon-ios-60.png" gap:platform="ios" width="60" height="60" />
+	<icon src="res/icon/icon-ios-60@2x.png" gap:platform="ios" width="120" height="120" />
+	<icon src="res/icon/icon-ios-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="res/icon/icon-ios-72@2x.png" gap:platform="ios" width="144" height="144" />
+	<icon src="res/icon/icon-ios-76.png" gap:platform="ios" width="76" height="76" />
+	<icon src="res/icon/icon-ios-76@2x.png" gap:platform="ios" width="152" height="152" />
+	
+	<icon src="res/icon/icon-android-36.png" gap:platform="android" width="36" height="36" />
+	<icon src="res/icon/icon-android-48.png" gap:platform="android" width="48" height="48" />
+	<icon src="res/icon/icon-android-72.png" gap:platform="android" width="72" height="72" />
+	<icon src="res/icon/icon-android-96.png" gap:platform="android" width="96" height="96" />
 	
 	<gap:splash src="res/screen/field-guide-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
 	<gap:splash src="res/screen/field-guide-iphone-retina-portrait.png" gap:platform="ios" width="1536" height="2008" />
