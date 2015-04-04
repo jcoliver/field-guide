@@ -3,6 +3,7 @@ var parentChild = {};
 
 $(document).ready(function(){
 	// Read the JSON data and send to getDataStartApp function
+	// TODO: It woud be useful to evaluate the JSON file to make sure it is valid...
 	$.getJSON("data/taxa.json", getDataStartApp);
 });
 
@@ -10,7 +11,8 @@ function getDataStartApp(data) {
 	// Loop over each element in JSON file and store in:
 	//	(1) dataObject, effectively an associative array indexed by id
 	//	(2) parentChild, effectively an associative array of arrays, where the 
-	//		key is the parent id and the value is the array of child ids
+	//		key is the parent id and the value is the array of child ids;
+	//		this one-time evaluation allows for more rapid traversal & retrieval
 	$.each(data, function() {
 		// Add to dataObject
 		dataObject[this.id] = this;
@@ -34,7 +36,7 @@ function getDataStartApp(data) {
 	*/
 }
 
-function showTaxaList(parentId) {
+function showTaxaList(parentTaxonId) {
 	// Need to clear out anything from taxa-list first...
 	$("#taxa-list").empty();
 	$("#taxa").addClass("current");
@@ -50,24 +52,18 @@ function showTaxaList(parentId) {
 	var taxonElement = $("#taxon");
 	var taxonChildren = taxonElement.children();
 	for (var ic = 0; ic < taxonChildren.length; ic++) {
-/*
-		if (taxonChildren[ic].attr("id") != "taxon-template") {
-			
-		}
-*/		
+		// The elements in the taxonChildren array are DOM elements, 
+		// NOT jQuery objects, so jQuery methods are not available
 		var child = taxonChildren[ic];
 		if (child.id != "taxon-template") {
-//		if (child.attr("id") != "taxon-template") {
 			child.parentNode.removeChild(child);
-//			child.remove();
 		}
 	}
-	
 	taxonElement.removeClass("current");
 	
-	setupTopNav(parentId, true);
+	setupTopNav(parentTaxonId, true);
 
-	taxaIds = parentChild[parentId];
+	taxaIds = parentChild[parentTaxonId];
 	
 	var odd = true;
 	for (var taxaIndex = 0; taxaIndex < taxaIds.length; taxaIndex++) {
@@ -100,24 +96,24 @@ function showTaxaList(parentId) {
 	} // end looping over taxa ids
 }
 
-function addTaxaListEvent(eventTargetId, taxaId) {
-	$("#" + eventTargetId).off(); // remove any previous listenter
-	$("#" + eventTargetId).on("click", function() {
+function addTaxaListEvent(targetElementId, taxonId) {
+	$("#" + targetElementId).off(); // remove any previous listenter
+	$("#" + targetElementId).on("click", function() {
 		//console.log("Clicked on id " + eventTargetId + " targeting taxa id " + taxaId);
-		showTaxaList(taxaId);
+		showTaxaList(taxonId);
 	});
 }
 
-function addTaxonEvent(id) {
-	$("#" + id).off(); // remove any previous listener
-	$("#" + id).on("click", function() {
+function addTaxonEvent(taxonId) {
+	$("#" + taxonId).off(); // remove any previous listener
+	$("#" + taxonId).on("click", function() {
 		// console.log("Clicked on taxon id " + id);
-		showTaxon(id);
+		showTaxon(taxonId);
 	});
 }
 
-function setupTopNav(parentId, isList) {
-	if (parentId == "none") {
+function setupTopNav(parentTaxonId, isList) {
+	if (parentTaxonId == "none") {
 		// Starting point.  Turn off back and home buttons
 		$("#back-button").empty();
 		$("#home-button").empty();
@@ -128,11 +124,11 @@ function setupTopNav(parentId, isList) {
 		$("#content-title-item").removeClass("fifty"); // so it can stretch out to 100%
 	} else { // not the starting point, need to get name of parent
 		document.getElementById("content-title-item").setAttribute("class", "fifty");
-		backButtonTarget = parentId;
+		backButtonTarget = parentTaxonId;
 		$("#content-title").empty();
 		if (isList) {
-			$("#content-title").text(dataObject[parentId].name);
-			backButtonTarget = dataObject[parentId].parentid; // get the grandparent id
+			$("#content-title").text(dataObject[parentTaxonId].name);
+			backButtonTarget = dataObject[parentTaxonId].parentid; // get the grandparent id
 		} else { // not a list, but a taxon page, so content title will just be empty
 			$("#content-title").text(" ");
 		}
@@ -141,22 +137,16 @@ function setupTopNav(parentId, isList) {
 	}
 }
 
-function addTopButton(id, name, targetId) {
-	var button = document.getElementById(id);
-	// Remove anything that is already there
-	while (button.childNodes[0]) {
-		button.removeChild(button.childNodes[0]);
-	}
-	// Now create elements
-	var linkElement = document.createElement("a");
-	linkElement.setAttribute("href", "#");
-	var nameElement = document.createElement("h2");
-	var nameElementValue = document.createTextNode(name);
-	nameElement.appendChild(nameElementValue);
-	linkElement.appendChild(nameElement);
-	button.appendChild(linkElement);
-	addTaxaListEvent(id, targetId);
-	
+function addTopButton(buttonElementId, name, taxonId) {
+	var button = $("#" + buttonElementId);
+	button.empty();
+	var linkElement = $("<a></a>");
+	linkElement.attr("href", "#");
+	var nameElement = $("<h2></h2>");
+	nameElement.text(name);
+	linkElement.append(nameElement);
+	button.append(linkElement);
+	addTaxaListEvent(buttonElementId, taxonId);
 }
 
 function setupBottomNav() {
@@ -197,33 +187,21 @@ function addMediaEvent() {
 	})
 }
 
-
-function addColorClick(id) {
-	this.id = id;
-	document.getElementById(this.id).addEventListener("click", function(){
-	    this.style.backgroundColor = "red";
-	});
-
-}
-
 function showTaxon(taxonId) {
 	// Clear out event listeners
 	$("#back-button").off("click");
 	$("#home-button").off("click");
-//	$("#about-button").off("click");
-//	$("#media-button").off("click");
 
 	// Need to make the taxa-list invisible
 	$("#taxa").removeClass("current");
 
 	$("#taxon").addClass("current");
-	var parentId = dataObject[taxonId].parentid;
+	var parentTaxonId = dataObject[taxonId].parentid;
 	var theTaxon = $("#taxon-template").clone();
 	theTaxon.attr("id", taxonId);
 	theTaxon.addClass("current");
 	var headerItem = theTaxon.find("h2");
 	headerItem.text(dataObject[taxonId].name);
-//	$("#taxon").append(theTaxon);
 
 	// Will have two content divs, about and media
 	// about will be shown, media will be hidden
@@ -233,47 +211,33 @@ function showTaxon(taxonId) {
 	aboutDiv.attr("id", "about");
 	aboutDiv.addClass("current");
 
-	// TODO: redo description data so it is a single element in the json file
-	// with an array of name/text pairs
-	if (dataObject[taxonId].description.length > 0) {
-		var title = "Description";
-		var dataTitle = document.createElement("p");
-		dataTitle.setAttribute("class", "taxon-data-title");
-		var dataTitleValue = document.createTextNode(title);
-		dataTitle.appendChild(dataTitleValue);
-		var dataText = document.createElement("p");
-		dataText.setAttribute("class", "taxon-data-text");
-		var dataTextValue = document.createTextNode(dataObject[taxonId].description);
-		dataText.appendChild(dataTextValue);
-		aboutDiv.append(dataTitle);
-		aboutDiv.append(dataText);
-		var br = $("<br />");
-		aboutDiv.append(br);
+	// Loop over any descriptions and add them to aboutDiv
+	if (dataObject[taxonId].descriptions) {
+		var descriptions = dataObject[taxonId].descriptions;
+		for (var descIndex = 0; descIndex < descriptions.length; descIndex++) {
+			var description = descriptions[descIndex];
+			if (description.type && description.text) {
+				var dataTitle = $("<p></p>");
+				dataTitle.addClass("taxon-data-title");
+				dataTitle.text(description.type);
+				var dataText = $("<p></p>");
+				dataText.addClass("taxon-data-text");
+				dataText.text(description.text);
+				aboutDiv.append(dataTitle);
+				aboutDiv.append(dataText);
+				var br = $("<br />");
+				aboutDiv.append(br);
+			}
+		}
 	}
-	if (dataObject[taxonId].distribution.length > 0) {
-		var title = "Distribution";
-		var dataTitle = document.createElement("p");
-		dataTitle.setAttribute("class", "taxon-data-title");
-		var dataTitleValue = document.createTextNode(title);
-		dataTitle.appendChild(dataTitleValue);
-		var dataText = document.createElement("p");
-		dataText.setAttribute("class", "taxon-data-text");
-		var dataTextValue = document.createTextNode(dataObject[taxonId].distribution);
-		dataText.appendChild(dataTextValue);
-		aboutDiv.append(dataTitle);
-		aboutDiv.append(dataText);
-		var br = $("<br />");
-		aboutDiv.append(br);
-	}
-
+	
 	// #media
 	var mediaDiv = $("<div></div>");
 	mediaDiv.attr("id", "media");
-	var mediaElement = document.createElement("p");
-	mediaElement.setAttribute("class", "taxon-data-text");
-	var mediaElementValue = document.createTextNode("Placeholder for media data");
-	mediaElement.appendChild(mediaElementValue);
-	mediaDiv.append(mediaElement);
+	var mediaPlaceholder = $("<p></p>");
+	mediaPlaceholder.addClass("taxon-data-text");
+	mediaPlaceholder.text("Placeholder for media.");
+	mediaDiv.append(mediaPlaceholder);
 
 	// Add those two divs and make the content visible by setting parent div to class = current
 	theTaxon.append(aboutDiv);
@@ -281,6 +245,6 @@ function showTaxon(taxonId) {
 	$("#taxon").append(theTaxon);
 	$("#taxon").addClass("current");
 
-	setupTopNav(parentId, false);
+	setupTopNav(parentTaxonId, false);
 	setupBottomNav();
 }
