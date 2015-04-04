@@ -7,6 +7,10 @@ $(document).ready(function(){
 	$.getJSON("data/taxa.json", getDataStartApp);
 });
 
+/**
+ * Reads JSON data and stores in two global objects
+ * @param {JSON} data - json data to load into memory
+ */
 function getDataStartApp(data) {
 	// Loop over each element in JSON file and store in:
 	//	(1) dataObject, effectively an associative array indexed by id
@@ -36,6 +40,10 @@ function getDataStartApp(data) {
 	*/
 }
 
+/**
+ * Displays list of taxa that are direct descendants of parentTaxonId
+ * @param {String} parentTaxonId - the unique identifier of the parent taxon
+ */
 function showTaxaList(parentTaxonId) {
 	// Need to clear out anything from taxa-list first...
 	$("#taxa-list").empty();
@@ -96,6 +104,11 @@ function showTaxaList(parentTaxonId) {
 	} // end looping over taxa ids
 }
 
+/**
+ * Add "click" listening to element, to call showTaxaList.
+ * @param {String} targetElementId - unique identifier of element that will listen
+ * @param {String} taxonId - unique identifier of taxon to show list of children
+ */
 function addTaxaListEvent(targetElementId, taxonId) {
 	$("#" + targetElementId).off(); // remove any previous listenter
 	$("#" + targetElementId).on("click", function() {
@@ -104,6 +117,10 @@ function addTaxaListEvent(targetElementId, taxonId) {
 	});
 }
 
+/**
+ * Add "click" listening to element, to call showTaxon
+ * @param {String} taxonId - unique identifier of taxon to show data; also serves as unique identifier of element that will listen
+ */
 function addTaxonEvent(taxonId) {
 	$("#" + taxonId).off(); // remove any previous listener
 	$("#" + taxonId).on("click", function() {
@@ -112,6 +129,11 @@ function addTaxonEvent(taxonId) {
 	});
 }
 
+/**
+ * Setup top navigation bar with "Back" and "Home" buttons
+ * @param {String} parentTaxonId - unique identifier of taxon
+ * @param {Boolean} isList - indicates whether a list, in which case the parent name is displayed, or not, in which only Back and Home buttons appear
+ */
 function setupTopNav(parentTaxonId, isList) {
 	if (parentTaxonId == "none") {
 		// Starting point.  Turn off back and home buttons
@@ -132,12 +154,18 @@ function setupTopNav(parentTaxonId, isList) {
 		} else { // not a list, but a taxon page, so content title will just be empty
 			$("#content-title").text(" ");
 		}
-		addTopButton("back-button", "Back", backButtonTarget);
-		addTopButton("home-button", "Home", "none");
+		fillTopButton("back-button", "Back", backButtonTarget);
+		fillTopButton("home-button", "Home", "none");
 	}
 }
 
-function addTopButton(buttonElementId, name, taxonId) {
+/**
+ * Fill in button in top navigation
+ * @param {String} buttonElementId - unique identifier of element that is the button
+ * @param {String} name - text to use for button
+ * @param {String} taxonId - unique identifier of taxon to show list of children when button is pressed
+ */
+function fillTopButton(buttonElementId, name, taxonId) {
 	var button = $("#" + buttonElementId);
 	button.empty();
 	var linkElement = $("<a></a>");
@@ -149,16 +177,26 @@ function addTopButton(buttonElementId, name, taxonId) {
 	addTaxaListEvent(buttonElementId, taxonId);
 }
 
+/**
+ * Set up bottom navigation bar
+ */
 function setupBottomNav() {
 	$("#about-button").empty();
 	$("#media-button").empty();
-	addBottomButton("about-button", "About", "#about");
+	fillBottomButton("about-button", "About", "#about");
 	addAboutEvent();
-	addBottomButton("media-button", "Media", "#media");
+	fillBottomButton("media-button", "Media", "#media");
 	addMediaEvent();
 }
 
-function addBottomButton(elementId, name, targetElementId) {
+//TODO: Comments to here
+/**
+ * Fill in button in bottom navigation
+ * @param {String} elementId
+ * @param name
+ * @param targetElementId
+ */
+function fillBottomButton(elementId, name, targetElementId) {
 	var button = $("#" + elementId);
 	button.empty();
 	var linkElement = $("<a></a>");
