@@ -168,6 +168,33 @@
 			"type": "Morphology",
 			"text": "Specimens from Mississippi are more similar in external form to B. honestum than to specimens of B. arenobilis from North Carolina and Virginia; see the diagnosis under B. honestum."
 		}
+	],
+	"media": [
+		{
+			"type": "img",
+			"src": "data/media/arenobV100189Plate.jpg",
+			"alt": "Bembidion arenobile habitus"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenV100163left.png",
+			"alt": "Bembidion arenobile genitalia, left view"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenobilePronotum.png",
+			"alt": "Bembidion arenobile pronotum"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenobileFlagellum.png",
+			"alt": "Bembidion arenobile flagellum"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenobilePosterior.png",
+			"alt": "Bembidion arenobile posterior"
+		}
 	]
 }, {
 	"id": 13,

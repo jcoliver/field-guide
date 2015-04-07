@@ -272,10 +272,35 @@ function showTaxon(taxonId) {
 	// #media
 	var mediaDiv = $("<div></div>");
 	mediaDiv.attr("id", "media");
-	var mediaPlaceholder = $("<p></p>");
-	mediaPlaceholder.addClass("taxon-data-text");
-	mediaPlaceholder.text("Placeholder for media.");
-	mediaDiv.append(mediaPlaceholder);
+	var addedMedia = false;
+	if (dataObject[taxonId].media) {
+		var mediaArray = dataObject[taxonId].media;
+		for (var mediaIndex = 0; mediaIndex < mediaArray.length; mediaIndex++) {
+			var media = mediaArray[mediaIndex];
+			if (media.hasOwnProperty("type")) {
+				// only support images for now
+				if (media.type == "img" && media.src) { // make sure there is a source listed
+					var imageElement = $("<img />");
+					// TODO: add an id?
+					imageElement.addClass("media-img");
+					imageElement.attr("src", media.src); //TODO: would be great to add check for file exists
+					if (media.alt) {
+						imageElement.attr("alt", media.alt);
+					}
+					mediaDiv.append(imageElement);
+					addedMedia = true;
+				}
+			}
+		}
+	} 
+	if (!addedMedia) {
+		var mediaPlaceholder = $("<p></p>");
+		mediaPlaceholder.addClass("taxon-data-text");
+		mediaPlaceholder.text("No media found.");
+		mediaDiv.append(mediaPlaceholder);
+	}
+	
+	
 
 	// Add those two divs and make the content visible by setting parent div to class = current
 	theTaxon.append(aboutDiv);

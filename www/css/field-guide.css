@@ -25,27 +25,17 @@ nav {
 	display: block;
 	clear: right;
 }
-/*all div descendants of element with id "pages"*/
+/*all div descendants of element with id "pages", hidden by default*/
 #pages div {
 	display: none;
 }
+/*Only show div with class="current"*/
 #pages div.current {
 	display: block;
 }
 #pages {
 	z-index:-1; /* to keep it below navigation buttons*/
 }
-/*
-#pages > div {
-	display: none;
-}
-*/
-/*Only show div with class="current"*/
-/*
-#pages > div.current {
-	display: block;
-}
-*/
 #pages {
 	position:absolute;
 	top: 8.55em; /* to start BELOW top navigation bar */
@@ -237,5 +227,10 @@ footer {
 	font-weight: bold;
 }
 
-
-
+/*  ---------------------------------------------  */
+/*  ----------------    MEDIA    ----------------  */
+/*  ---------------------------------------------  */
+.media-img {
+	height: auto;
+	width: 100%; /*May cause problems with genitalic images...*/
+}
