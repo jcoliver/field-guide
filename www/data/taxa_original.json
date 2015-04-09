@@ -1,0 +1,334 @@
+[{
+	"id": 1,
+	"name": "Amerizus",
+	"parentid": "none",
+	"category": "internal",
+	"species": "4"
+}, {
+	"id": 2,
+	"name": "Asaphidion",
+	"parentid": "none",
+	"category": "internal",
+	"species": "4"
+}, {
+	"id": 3,
+	"name": "Lionepha",
+	"parentid": "none",
+	"category": "internal",
+	"species": "9"
+}, {
+	"id": 4,
+	"name": "Bembidion",
+	"parentid": "none",
+	"category": "internal",
+	"species": "100+"
+}, {
+	"id": 5,
+	"name": "Amerizus oblonguloides",
+	"parentid": "1",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the diagnostic description of A. oblonguloides"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for A. oblonguloides"
+		}
+	]
+}, {
+	"id": 6,
+	"name": "Amerizus oblongulus",
+	"parentid": "1",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of A. oblongulus"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for A. oblongulus"
+		}
+	]
+}, {
+	"id": 7,
+	"name": "Amerizus spectabilis",
+	"parentid": "1",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of A. spectabilis"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for A. spectabilis"
+		}
+	]
+}, {
+	"id": 8,
+	"name": "Amerizus wingatei",
+	"parentid": "1",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of A. wingatei"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for A. wingatei"
+		}
+	]
+}, {
+	"id": 9,
+	"name": "Asaphidion alaskanum",
+	"parentid": "2",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of A. alaskanum"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for A. alaskanum"
+		}
+	]
+}, {
+	"id": 10,
+	"name": "Asaphidion curtum",
+	"parentid": "2",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of A. curtum"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for A. curtum"
+		}
+	]
+}, {
+	"id": 11,
+	"name": "Bembidion zephyrum",
+	"parentid": "4",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of B. zephyrum"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for B. zephyrum"
+		}
+	]
+}, {
+	"id": 12,
+	"name": "Bembidion castor",
+	"parentid": "4",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of B. castor"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for B. castor"
+		}
+	]
+}, {
+	"id": 22,
+	"name": "Bembidion arenobilis",
+	"parentid": "4",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "Bembidion arenobilis is so similar to B. honestum that I originally hesitated to describe it as a distinct species. However, the populations of B. honestum (James river, Virginia) that are closest to those of B. arenobilis (roanoke river watershed, Virginia) show no sharing of genes, and these populations are distinct morphologically from one another. Virginia B. arenobilis are duller because of the more deeply-impressed microsculpture, with lateral margins of prothoraces more sinuate and with hind angles more acute, and with paler legs, usually having rufous femora; for further details see the diagnosis of B. honestum."
+		},
+		{
+			"type": "Distribution",
+			"text": "From the Roanoke River drainage in Virginia south in the Piedmont through North Carolina, South Carolina, Alabama, and Mississippi."
+		},
+		{
+			"type": "Genetics",
+			"text": "Three genes show fixed differences between the Mississippi populations and the North Carolina/Virginia populations: 18S rDNA, differing by one nucleotide; CAD, also differing by one nucleotide; COI, with the populations differing at five nucleotide sites. The population from Mississippi is distinct enough from the North Carolina and Virginia populations in DNA sequences that it may eventually warrant a separate name. However, geographically intermediate localities should be sampled before this is done."
+		},
+		{
+			"type": "Habitat",
+			"text": "Less gravel-or cobble-dependent than most Pseudoperyphus. The most notable feature in common to known sites is the presence of pure, well-drained sand. At some of the known localities this sand has fine gravel mixed in, but at others, including the type locality, the beetles are found on pure sand or sand containing layers of leaf litter, in which the beetles hide. Near Wiggins, Mississippi, and at six of the nine localities in Virginia and North Carolina, specimens were found in the company of an undescribed species related to B. aenulum (maddison and Arnold, in prep.) which itself prefers coarse, well-drained sand shores."
+		},
+		{
+			"type": "Morphology",
+			"text": "Specimens from Mississippi are more similar in external form to B. honestum than to specimens of B. arenobilis from North Carolina and Virginia; see the diagnosis under B. honestum."
+		}
+	],
+	"media": [
+		{
+			"type": "img",
+			"src": "data/media/arenobV100189Plate.jpg",
+			"alt": "Bembidion arenobile habitus"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenV100163left.png",
+			"alt": "Bembidion arenobile genitalia, left view"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenobilePronotum.png",
+			"alt": "Bembidion arenobile pronotum"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenobileFlagellum.png",
+			"alt": "Bembidion arenobile flagellum"
+		},
+		{
+			"type": "img",
+			"src": "data/media/arenobilePosterior.png",
+			"alt": "Bembidion arenobile posterior"
+		}
+	]
+}, {
+	"id": 13,
+	"name": "Lionepha erasa",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. erasa"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. erasa"
+		}
+	]
+}, {
+	"id": 14,
+	"name": "Lionepha chintimini",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. chintimini"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. chintimini"
+		}
+	]
+}, {
+	"id": 15,
+	"name": "Lionepha lindrothella",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. lindrothella"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. lindrothella"
+		}
+	]
+}, {
+	"id": 16,
+	"name": "Lionepha lummi",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. lummi"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. lummi"
+		}
+	]
+}, {
+	"id": 17,
+	"name": "Lionepha disjuncta",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. disjuncta"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. disjuncta"
+		}
+	]
+}, {
+	"id": 18,
+	"name": "Lionepha casta",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. casta"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. casta"
+		}
+	]
+}, {
+	"id": 19,
+	"name": "Lionepha sequoiae",
+	"parentid": "3",
+	"category": "terminal",
+		"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. sequoiae"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. sequoiae"
+		}
+	]
+}, {
+	"id": 20,
+	"name": "Lionepha pseudoerasa",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. pseudoerasa"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. pseudoerasa"
+		}
+	]
+}, {
+	"id": 21,
+	"name": "Lionepha osculans",
+	"parentid": "3",
+	"category": "terminal",
+	"descriptions": [
+		{
+			"type": "Diagnostic",
+			"text": "This is the description of L. osculans"
+		},
+		{
+			"type": "Distribution",
+			"text": "Distribution details for L. osculans"
+		}
+	]
+}]

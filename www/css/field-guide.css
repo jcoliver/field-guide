@@ -232,5 +232,5 @@ footer {
 /*  ---------------------------------------------  */
 .media-img {
 	height: auto;
-	width: 100%; /*May cause problems with genitalic images...*/
+	max-width: 100%; /*May cause problems with genitalic images...*/
 }

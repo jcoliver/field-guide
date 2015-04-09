@@ -1,334 +1,2758 @@
-[{
-	"id": 1,
-	"name": "Amerizus",
-	"parentid": "none",
-	"category": "internal",
-	"species": "4"
-}, {
-	"id": 2,
-	"name": "Asaphidion",
-	"parentid": "none",
-	"category": "internal",
-	"species": "4"
-}, {
-	"id": 3,
-	"name": "Lionepha",
-	"parentid": "none",
-	"category": "internal",
-	"species": "9"
-}, {
-	"id": 4,
-	"name": "Bembidion",
-	"parentid": "none",
-	"category": "internal",
-	"species": "100+"
-}, {
-	"id": 5,
-	"name": "Amerizus oblonguloides",
-	"parentid": "1",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the diagnostic description of A. oblonguloides"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for A. oblonguloides"
-		}
-	]
-}, {
-	"id": 6,
-	"name": "Amerizus oblongulus",
-	"parentid": "1",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of A. oblongulus"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for A. oblongulus"
-		}
-	]
-}, {
-	"id": 7,
-	"name": "Amerizus spectabilis",
-	"parentid": "1",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of A. spectabilis"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for A. spectabilis"
-		}
-	]
-}, {
-	"id": 8,
-	"name": "Amerizus wingatei",
-	"parentid": "1",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of A. wingatei"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for A. wingatei"
-		}
-	]
-}, {
-	"id": 9,
-	"name": "Asaphidion alaskanum",
-	"parentid": "2",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of A. alaskanum"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for A. alaskanum"
-		}
-	]
-}, {
-	"id": 10,
-	"name": "Asaphidion curtum",
-	"parentid": "2",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of A. curtum"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for A. curtum"
-		}
-	]
-}, {
-	"id": 11,
-	"name": "Bembidion zephyrum",
-	"parentid": "4",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of B. zephyrum"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for B. zephyrum"
-		}
-	]
-}, {
-	"id": 12,
-	"name": "Bembidion castor",
-	"parentid": "4",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of B. castor"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for B. castor"
-		}
-	]
-}, {
-	"id": 22,
-	"name": "Bembidion arenobilis",
-	"parentid": "4",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "Bembidion arenobilis is so similar to B. honestum that I originally hesitated to describe it as a distinct species. However, the populations of B. honestum (James river, Virginia) that are closest to those of B. arenobilis (roanoke river watershed, Virginia) show no sharing of genes, and these populations are distinct morphologically from one another. Virginia B. arenobilis are duller because of the more deeply-impressed microsculpture, with lateral margins of prothoraces more sinuate and with hind angles more acute, and with paler legs, usually having rufous femora; for further details see the diagnosis of B. honestum."
-		},
-		{
-			"type": "Distribution",
-			"text": "From the Roanoke River drainage in Virginia south in the Piedmont through North Carolina, South Carolina, Alabama, and Mississippi."
-		},
-		{
-			"type": "Genetics",
-			"text": "Three genes show fixed differences between the Mississippi populations and the North Carolina/Virginia populations: 18S rDNA, differing by one nucleotide; CAD, also differing by one nucleotide; COI, with the populations differing at five nucleotide sites. The population from Mississippi is distinct enough from the North Carolina and Virginia populations in DNA sequences that it may eventually warrant a separate name. However, geographically intermediate localities should be sampled before this is done."
-		},
-		{
-			"type": "Habitat",
-			"text": "Less gravel-or cobble-dependent than most Pseudoperyphus. The most notable feature in common to known sites is the presence of pure, well-drained sand. At some of the known localities this sand has fine gravel mixed in, but at others, including the type locality, the beetles are found on pure sand or sand containing layers of leaf litter, in which the beetles hide. Near Wiggins, Mississippi, and at six of the nine localities in Virginia and North Carolina, specimens were found in the company of an undescribed species related to B. aenulum (maddison and Arnold, in prep.) which itself prefers coarse, well-drained sand shores."
-		},
-		{
-			"type": "Morphology",
-			"text": "Specimens from Mississippi are more similar in external form to B. honestum than to specimens of B. arenobilis from North Carolina and Virginia; see the diagnosis under B. honestum."
-		}
-	],
-	"media": [
-		{
-			"type": "img",
-			"src": "data/media/arenobV100189Plate.jpg",
-			"alt": "Bembidion arenobile habitus"
-		},
-		{
-			"type": "img",
-			"src": "data/media/arenV100163left.png",
-			"alt": "Bembidion arenobile genitalia, left view"
-		},
-		{
-			"type": "img",
-			"src": "data/media/arenobilePronotum.png",
-			"alt": "Bembidion arenobile pronotum"
-		},
-		{
-			"type": "img",
-			"src": "data/media/arenobileFlagellum.png",
-			"alt": "Bembidion arenobile flagellum"
-		},
-		{
-			"type": "img",
-			"src": "data/media/arenobilePosterior.png",
-			"alt": "Bembidion arenobile posterior"
-		}
-	]
-}, {
-	"id": 13,
-	"name": "Lionepha erasa",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. erasa"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. erasa"
-		}
-	]
-}, {
-	"id": 14,
-	"name": "Lionepha chintimini",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. chintimini"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. chintimini"
-		}
-	]
-}, {
-	"id": 15,
-	"name": "Lionepha lindrothella",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. lindrothella"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. lindrothella"
-		}
-	]
-}, {
-	"id": 16,
-	"name": "Lionepha lummi",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. lummi"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. lummi"
-		}
-	]
-}, {
-	"id": 17,
-	"name": "Lionepha disjuncta",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. disjuncta"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. disjuncta"
-		}
-	]
-}, {
-	"id": 18,
-	"name": "Lionepha casta",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. casta"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. casta"
-		}
-	]
-}, {
-	"id": 19,
-	"name": "Lionepha sequoiae",
-	"parentid": "3",
-	"category": "terminal",
-		"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. sequoiae"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. sequoiae"
-		}
-	]
-}, {
-	"id": 20,
-	"name": "Lionepha pseudoerasa",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. pseudoerasa"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. pseudoerasa"
-		}
-	]
-}, {
-	"id": 21,
-	"name": "Lionepha osculans",
-	"parentid": "3",
-	"category": "terminal",
-	"descriptions": [
-		{
-			"type": "Diagnostic",
-			"text": "This is the description of L. osculans"
-		},
-		{
-			"type": "Distribution",
-			"text": "Distribution details for L. osculans"
-		}
-	]
-}]
+[
+    {
+        "name": "Bembidion Carrizo",
+        "id": "bembidioninfotaxonconcepts000515",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Inuvik",
+        "id": "bembidioninfotaxonconcepts000513",
+        "parentid": "bembidioninfotaxonconcepts000041",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion erosum",
+        "id": "bembidioninfotaxonconcepts000511",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Kenosha Pass",
+        "id": "bembidioninfotaxonconcepts000516",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Tioga",
+        "id": "bembidioninfotaxonconcepts000514",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr. transversale WestCoast light",
+        "id": "bembidioninfotaxonconcepts000512",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sejunctum sejunctum",
+        "id": "bembidioninfotaxonconcepts000257",
+        "parentid": "bembidioninfotaxonconcepts000256",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rusticum rusticum",
+        "id": "bembidioninfotaxonconcepts000338",
+        "parentid": "bembidioninfotaxonconcepts000336",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sulcipenne hyperboroides",
+        "id": "bembidioninfotaxonconcepts000340",
+        "parentid": "bembidioninfotaxonconcepts000339",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion festivum hilare",
+        "id": "bembidioninfotaxonconcepts000421",
+        "parentid": "bembidioninfotaxonconcepts000419",
+        "category": "terminal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "This subspecies occurs from San Francisco in California north to Corvallis, Oregon. &nbsp;There is also apparently one population east of Fresno, California."
+            },
+            {
+                "type": "Habitat",
+                "text": "Found on steep sand banks of creeks and rivers, most commonly in the shade of trees."
+            },
+            {
+                "type": "Size",
+                "text": "Body length 3.7-4.2 mm."
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/V100776.Body_.Scale_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Habitat image",
+                "src": "data/media/13.234a.JPG"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/V100776.Pronotum.EDF_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Genitalia left image",
+                "src": "data/media/DNA2688EDF.pub_.800.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion mckinleyi carneum",
+        "id": "bembidioninfotaxonconcepts000212",
+        "parentid": "bembidioninfotaxonconcepts000211",
+        "category": "terminal"
+    },
+    {
+        "name": "Asaphidion curtum curtum",
+        "id": "bembidioninfotaxonconcepts000032",
+        "parentid": "bembidioninfotaxonconcepts000033",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion transparens transparens",
+        "id": "bembidioninfotaxonconcepts000082",
+        "parentid": "bembidioninfotaxonconcepts000083",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mckinleyi Southern",
+        "id": "bembidioninfotaxonconcepts000214",
+        "parentid": "bembidioninfotaxonconcepts000211",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obscurellum obscurellum",
+        "id": "bembidioninfotaxonconcepts000199",
+        "parentid": "bembidioninfotaxonconcepts000200",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion petrosum petrosum",
+        "id": "bembidioninfotaxonconcepts000203",
+        "parentid": "bembidioninfotaxonconcepts000201",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion gebleri persuasum",
+        "id": "bembidioninfotaxonconcepts000431",
+        "parentid": "bembidioninfotaxonconcepts000430",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion levettei levettei",
+        "id": "bembidioninfotaxonconcepts000303",
+        "parentid": "bembidioninfotaxonconcepts000301",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion quadrimaculatum oppositum",
+        "id": "bembidioninfotaxonconcepts000057",
+        "parentid": "bembidioninfotaxonconcepts000055",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rusticum lenensoides",
+        "id": "bembidioninfotaxonconcepts000337",
+        "parentid": "bembidioninfotaxonconcepts000336",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sejunctum semiaureum",
+        "id": "bembidioninfotaxonconcepts000258",
+        "parentid": "bembidioninfotaxonconcepts000256",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion festivum festivum",
+        "id": "bembidioninfotaxonconcepts000420",
+        "parentid": "bembidioninfotaxonconcepts000419",
+        "category": "terminal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "Found in southern California, from just south of the Bay Area to the area around San Diego."
+            },
+            {
+                "type": "Habitat",
+                "text": "Found on steep sand or silt banks of creeks and rivers, often where shaded."
+            },
+            {
+                "type": "Size",
+                "text": "Body length 3.5 to 4.5 mm, with most specimens longer than 3.9 mm."
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/V100779.Body_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/V100779.Pronotum.EDF_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Genitalia left image",
+                "src": "data/media/DNA2303EDF.pub_.800.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion sulcipenne prasinoides",
+        "id": "bembidioninfotaxonconcepts000341",
+        "parentid": "bembidioninfotaxonconcepts000339",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mckinleyi mckinleyi",
+        "id": "bembidioninfotaxonconcepts000213",
+        "parentid": "bembidioninfotaxonconcepts000211",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion gebleri gebleri",
+        "id": "bembidioninfotaxonconcepts000424",
+        "parentid": "bembidioninfotaxonconcepts000430",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion petrosum attuense",
+        "id": "bembidioninfotaxonconcepts000202",
+        "parentid": "bembidioninfotaxonconcepts000201",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion poppii schalleri",
+        "id": "bembidioninfotaxonconcepts000204",
+        "parentid": "bembidioninfotaxonconcepts000425",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion levettei carrianum",
+        "id": "bembidioninfotaxonconcepts000302",
+        "parentid": "bembidioninfotaxonconcepts000301",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion quadrimaculatum dubitans",
+        "id": "bembidioninfotaxonconcepts000056",
+        "parentid": "bembidioninfotaxonconcepts000055",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion poppii poppii",
+        "id": "bembidioninfotaxonconcepts000432",
+        "parentid": "bembidioninfotaxonconcepts000425",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion tetracolum tetracolum",
+        "id": "bembidioninfotaxonconcepts000208",
+        "parentid": "bembidioninfotaxonconcepts000209",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion cordatum",
+        "id": "bembidioninfotaxonconcepts000143",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Snoqualmie",
+        "id": "bembidioninfotaxonconcepts000370",
+        "parentid": "bembidioninfotaxonconcepts000364",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion yukonum",
+        "id": "bembidioninfotaxonconcepts000225",
+        "parentid": "bembidioninfotaxonconcepts000221",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion zephyrum",
+        "id": "bembidioninfotaxonconcepts000306",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha sequoiae",
+        "id": "bembidioninfotaxonconcepts000028",
+        "parentid": "bembidioninfotaxonconcepts000025",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion brachythorax",
+        "id": "bembidioninfotaxonconcepts000387",
+        "parentid": "bembidioninfotaxonconcepts000386",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Clearwater",
+        "id": "bembidioninfotaxonconcepts000111",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion poculare",
+        "id": "bembidioninfotaxonconcepts000060",
+        "parentid": "bembidioninfotaxonconcepts000059",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion thermarum",
+        "id": "bembidioninfotaxonconcepts000193",
+        "parentid": "bembidioninfotaxonconcepts000191",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion festivum",
+        "id": "bembidioninfotaxonconcepts000419",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "Found from southern California north to Corvallis, Oregon."
+            },
+            {
+                "type": "Habitat",
+                "text": "Found on steep, sand or silt banks of creeks and rivers, frequently in the shade of trees.&nbsp;"
+            },
+            {
+                "type": "Size",
+                "text": "Body length 3.5-4.5 mm, with most specimens 3.8-4.2 mm."
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/V100779.Body_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Habitat image",
+                "src": "data/media/13.234a.JPG"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/V100779.Pronotum.EDF_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Genitalia left image",
+                "src": "data/media/DNA2303EDF.pub_.800.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion iridipenne",
+        "id": "bembidioninfotaxonconcepts000045",
+        "parentid": "bembidioninfotaxonconcepts000041",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion scudderi",
+        "id": "bembidioninfotaxonconcepts000128",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion planiusculum",
+        "id": "bembidioninfotaxonconcepts000355",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nudipenne",
+        "id": "bembidioninfotaxonconcepts000078",
+        "parentid": "bembidioninfotaxonconcepts000076",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion canadianum",
+        "id": "bembidioninfotaxonconcepts000161",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion robusticolle",
+        "id": "bembidioninfotaxonconcepts000291",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Amerizus utahensis",
+        "id": "bembidioninfotaxonconcepts000013",
+        "parentid": "bembidioninfotaxonconcepts000009",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sarpedon",
+        "id": "bembidioninfotaxonconcepts000242",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion aratum",
+        "id": "bembidioninfotaxonconcepts000095",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion salinarium",
+        "id": "bembidioninfotaxonconcepts000178",
+        "parentid": "bembidioninfotaxonconcepts000176",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion americanum",
+        "id": "bembidioninfotaxonconcepts000308",
+        "parentid": "bembidioninfotaxonconcepts000307",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion striola",
+        "id": "bembidioninfotaxonconcepts000259",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion occultator",
+        "id": "bembidioninfotaxonconcepts000389",
+        "parentid": "bembidioninfotaxonconcepts000386",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion approximatum",
+        "id": "bembidioninfotaxonconcepts000113",
+        "parentid": "bembidioninfotaxonconcepts000112",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion indistinctum",
+        "id": "bembidioninfotaxonconcepts000145",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lividulum",
+        "id": "bembidioninfotaxonconcepts000372",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion californicum",
+        "id": "bembidioninfotaxonconcepts000276",
+        "parentid": "bembidioninfotaxonconcepts000274",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion grandiceps",
+        "id": "bembidioninfotaxonconcepts000406",
+        "parentid": "bembidioninfotaxonconcepts000404",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion aeneicolle",
+        "id": "bembidioninfotaxonconcepts000130",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr.rufinum",
+        "id": "bembidioninfotaxonconcepts000357",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion connivens",
+        "id": "bembidioninfotaxonconcepts000163",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Amerizus Abajo",
+        "id": "bembidioninfotaxonconcepts000015",
+        "parentid": "bembidioninfotaxonconcepts000009",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion hastii",
+        "id": "bembidioninfotaxonconcepts000325",
+        "parentid": "bembidioninfotaxonconcepts000324",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion tigrinum",
+        "id": "bembidioninfotaxonconcepts000229",
+        "parentid": "bembidioninfotaxonconcepts000228",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion diligens",
+        "id": "bembidioninfotaxonconcepts000180",
+        "parentid": "bembidioninfotaxonconcepts000179",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion cheyennense",
+        "id": "bembidioninfotaxonconcepts000310",
+        "parentid": "bembidioninfotaxonconcepts000307",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion evidens",
+        "id": "bembidioninfotaxonconcepts000115",
+        "parentid": "bembidioninfotaxonconcepts000112",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion affine",
+        "id": "bembidioninfotaxonconcepts000064",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion bruxellense",
+        "id": "bembidioninfotaxonconcepts000197",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Hastings",
+        "id": "bembidioninfotaxonconcepts000423",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion insulatum",
+        "id": "bembidioninfotaxonconcepts000147",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion amnicum",
+        "id": "bembidioninfotaxonconcepts000097",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion quadratulum",
+        "id": "bembidioninfotaxonconcepts000278",
+        "parentid": "bembidioninfotaxonconcepts000274",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion planum",
+        "id": "bembidioninfotaxonconcepts000408",
+        "parentid": "bembidioninfotaxonconcepts000404",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion debiliceps",
+        "id": "bembidioninfotaxonconcepts000132",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Cascades",
+        "id": "bembidioninfotaxonconcepts000359",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion frontale",
+        "id": "bembidioninfotaxonconcepts000165",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion balli",
+        "id": "bembidioninfotaxonconcepts000295",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion subangustatum",
+        "id": "bembidioninfotaxonconcepts000246",
+        "parentid": "bembidioninfotaxonconcepts000244",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion breve",
+        "id": "bembidioninfotaxonconcepts000376",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rapidum",
+        "id": "bembidioninfotaxonconcepts000100",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion complanulum",
+        "id": "bembidioninfotaxonconcepts000327",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "terminal"
+    },
+    {
+        "name": "Asaphidion yukonense",
+        "id": "bembidioninfotaxonconcepts000034",
+        "parentid": "bembidioninfotaxonconcepts000030",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion levigatum",
+        "id": "bembidioninfotaxonconcepts000393",
+        "parentid": "bembidioninfotaxonconcepts000392",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion carolinense",
+        "id": "bembidioninfotaxonconcepts000344",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion fuchsii",
+        "id": "bembidioninfotaxonconcepts000066",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion poppii",
+        "id": "bembidioninfotaxonconcepts000425",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obscuromaculatum",
+        "id": "bembidioninfotaxonconcepts000150",
+        "parentid": "bembidioninfotaxonconcepts000112",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion intermedium",
+        "id": "bembidioninfotaxonconcepts000134",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion stillaguamish",
+        "id": "bembidioninfotaxonconcepts000361",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion bimaculatum",
+        "id": "bembidioninfotaxonconcepts000216",
+        "parentid": "bembidioninfotaxonconcepts000215",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion siticum",
+        "id": "bembidioninfotaxonconcepts000167",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion foveum",
+        "id": "bembidioninfotaxonconcepts000297",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha chintimini",
+        "id": "bembidioninfotaxonconcepts000019",
+        "parentid": "bembidioninfotaxonconcepts000017",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Pine Canyon",
+        "id": "bembidioninfotaxonconcepts000248",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Franklin Lake",
+        "id": "bembidioninfotaxonconcepts000378",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion vulpecula",
+        "id": "bembidioninfotaxonconcepts000102",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion improvidens",
+        "id": "bembidioninfotaxonconcepts000329",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mutatum",
+        "id": "bembidioninfotaxonconcepts000051",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Jasper",
+        "id": "bembidioninfotaxonconcepts000280",
+        "parentid": "bembidioninfotaxonconcepts000274",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion bellorum",
+        "id": "bembidioninfotaxonconcepts000314",
+        "parentid": "bembidioninfotaxonconcepts000312",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion avidum",
+        "id": "bembidioninfotaxonconcepts000265",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion interventor",
+        "id": "bembidioninfotaxonconcepts000395",
+        "parentid": "bembidioninfotaxonconcepts000392",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion dejectum",
+        "id": "bembidioninfotaxonconcepts000119",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "\"Bembidion sp.nr.curtulatum \"\"Idaho\"\"\"",
+        "id": "bembidioninfotaxonconcepts000346",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr.impotens",
+        "id": "bembidioninfotaxonconcepts000069",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion petrosum",
+        "id": "bembidioninfotaxonconcepts000201",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Oaxaca",
+        "id": "bembidioninfotaxonconcepts000427",
+        "parentid": "bembidioninfotaxonconcepts000244",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion umbratum",
+        "id": "bembidioninfotaxonconcepts000152",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion consanguineum",
+        "id": "bembidioninfotaxonconcepts000233",
+        "parentid": "bembidioninfotaxonconcepts000231",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion fabrum",
+        "id": "bembidioninfotaxonconcepts000412",
+        "parentid": "bembidioninfotaxonconcepts000410",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion operosum",
+        "id": "bembidioninfotaxonconcepts000136",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion vespertinum",
+        "id": "bembidioninfotaxonconcepts000363",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion morulum",
+        "id": "bembidioninfotaxonconcepts000086",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion renoanum",
+        "id": "bembidioninfotaxonconcepts000218",
+        "parentid": "bembidioninfotaxonconcepts000215",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion inaequale",
+        "id": "bembidioninfotaxonconcepts000299",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha erasa",
+        "id": "bembidioninfotaxonconcepts000021",
+        "parentid": "bembidioninfotaxonconcepts000017",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion commotum",
+        "id": "bembidioninfotaxonconcepts000250",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion acticola",
+        "id": "bembidioninfotaxonconcepts000104",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion turbatum",
+        "id": "bembidioninfotaxonconcepts000331",
+        "parentid": "bembidioninfotaxonconcepts000330",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion pedicellatum",
+        "id": "bembidioninfotaxonconcepts000053",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Desert Spotted",
+        "id": "bembidioninfotaxonconcepts000510",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion louisella",
+        "id": "bembidioninfotaxonconcepts000316",
+        "parentid": "bembidioninfotaxonconcepts000312",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion humboldtense",
+        "id": "bembidioninfotaxonconcepts000267",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obliquulum",
+        "id": "bembidioninfotaxonconcepts000397",
+        "parentid": "bembidioninfotaxonconcepts000392",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lecontei",
+        "id": "bembidioninfotaxonconcepts000121",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "\"Bembidion sp.nr.curtulatum \"\"Bay Area\"\"\"",
+        "id": "bembidioninfotaxonconcepts000348",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nogalesium",
+        "id": "bembidioninfotaxonconcepts000071",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Puerto Penasco",
+        "id": "bembidioninfotaxonconcepts000429",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion versutum",
+        "id": "bembidioninfotaxonconcepts000154",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion bowditchii",
+        "id": "bembidioninfotaxonconcepts000284",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion satelles",
+        "id": "bembidioninfotaxonconcepts000235",
+        "parentid": "bembidioninfotaxonconcepts000231",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Corvallis",
+        "id": "bembidioninfotaxonconcepts000138",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion arcticum",
+        "id": "bembidioninfotaxonconcepts000365",
+        "parentid": "bembidioninfotaxonconcepts000364",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nigrivestis",
+        "id": "bembidioninfotaxonconcepts000088",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion umiatense",
+        "id": "bembidioninfotaxonconcepts000220",
+        "parentid": "bembidioninfotaxonconcepts000215",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion concretum",
+        "id": "bembidioninfotaxonconcepts000171",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion levettei",
+        "id": "bembidioninfotaxonconcepts000301",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nebraskense",
+        "id": "bembidioninfotaxonconcepts000252",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion kuprianovii #1",
+        "id": "bembidioninfotaxonconcepts000382",
+        "parentid": "bembidioninfotaxonconcepts000380",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion contractum",
+        "id": "bembidioninfotaxonconcepts000106",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "\"Bembidion sp.nr.oppressum \"\"Sierras\"\"\"",
+        "id": "bembidioninfotaxonconcepts000333",
+        "parentid": "bembidioninfotaxonconcepts000330",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion quadrimaculatum",
+        "id": "bembidioninfotaxonconcepts000055",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion wickhami",
+        "id": "bembidioninfotaxonconcepts000040",
+        "parentid": "bembidioninfotaxonconcepts000038",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion quadrulum",
+        "id": "bembidioninfotaxonconcepts000269",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion dyschirinum",
+        "id": "bembidioninfotaxonconcepts000399",
+        "parentid": "bembidioninfotaxonconcepts000398",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obtusangulum",
+        "id": "bembidioninfotaxonconcepts000123",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion triviale",
+        "id": "bembidioninfotaxonconcepts000073",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rupicola",
+        "id": "bembidioninfotaxonconcepts000205",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion semipunctatum",
+        "id": "bembidioninfotaxonconcepts000156",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion confusum",
+        "id": "bembidioninfotaxonconcepts000286",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion orion",
+        "id": "bembidioninfotaxonconcepts000416",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal",
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/DNA3070.Body_.Scale_.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion farrarae",
+        "id": "bembidioninfotaxonconcepts000367",
+        "parentid": "bembidioninfotaxonconcepts000364",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion roosevelti",
+        "id": "bembidioninfotaxonconcepts000090",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion grapii",
+        "id": "bembidioninfotaxonconcepts000222",
+        "parentid": "bembidioninfotaxonconcepts000221",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion pseudocautum",
+        "id": "bembidioninfotaxonconcepts000173",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion perbrevicolle",
+        "id": "bembidioninfotaxonconcepts000254",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion neocoerulescens",
+        "id": "bembidioninfotaxonconcepts000384",
+        "parentid": "bembidioninfotaxonconcepts000380",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion pilatei",
+        "id": "bembidioninfotaxonconcepts000108",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion hyperboraeorum",
+        "id": "bembidioninfotaxonconcepts000335",
+        "parentid": "bembidioninfotaxonconcepts000334",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion honestum",
+        "id": "bembidioninfotaxonconcepts000320",
+        "parentid": "bembidioninfotaxonconcepts000318",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion graciliforme",
+        "id": "bembidioninfotaxonconcepts000042",
+        "parentid": "bembidioninfotaxonconcepts000041",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr.recticolle",
+        "id": "bembidioninfotaxonconcepts000271",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion properans",
+        "id": "bembidioninfotaxonconcepts000401",
+        "parentid": "bembidioninfotaxonconcepts000398",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion flohri",
+        "id": "bembidioninfotaxonconcepts000125",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion gordoni",
+        "id": "bembidioninfotaxonconcepts000352",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion largePaleFurcacampa",
+        "id": "bembidioninfotaxonconcepts000075",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Red River",
+        "id": "bembidioninfotaxonconcepts000207",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion durangoense",
+        "id": "bembidioninfotaxonconcepts000288",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Amerizus oblonguloides",
+        "id": "bembidioninfotaxonconcepts000010",
+        "parentid": "bembidioninfotaxonconcepts000009",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mexicanum",
+        "id": "bembidioninfotaxonconcepts000239",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rosslandicum",
+        "id": "bembidioninfotaxonconcepts000369",
+        "parentid": "bembidioninfotaxonconcepts000364",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion semicinctum",
+        "id": "bembidioninfotaxonconcepts000092",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion stephensii",
+        "id": "bembidioninfotaxonconcepts000224",
+        "parentid": "bembidioninfotaxonconcepts000221",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Hannagan",
+        "id": "bembidioninfotaxonconcepts000175",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion punctatostriatum",
+        "id": "bembidioninfotaxonconcepts000305",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha pseudoerasa",
+        "id": "bembidioninfotaxonconcepts000027",
+        "parentid": "bembidioninfotaxonconcepts000025",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sejunctum",
+        "id": "bembidioninfotaxonconcepts000256",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion vividum",
+        "id": "bembidioninfotaxonconcepts000110",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion scopulinum",
+        "id": "bembidioninfotaxonconcepts000192",
+        "parentid": "bembidioninfotaxonconcepts000191",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion darlingtonielum",
+        "id": "bembidioninfotaxonconcepts000418",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rufotinctum",
+        "id": "bembidioninfotaxonconcepts000322",
+        "parentid": "bembidioninfotaxonconcepts000318",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion incrematum",
+        "id": "bembidioninfotaxonconcepts000044",
+        "parentid": "bembidioninfotaxonconcepts000041",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion subaerarium",
+        "id": "bembidioninfotaxonconcepts000273",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion planatum",
+        "id": "bembidioninfotaxonconcepts000403",
+        "parentid": "bembidioninfotaxonconcepts000402",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr.obtusidens",
+        "id": "bembidioninfotaxonconcepts000127",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion kalumae",
+        "id": "bembidioninfotaxonconcepts000354",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion constricticolle",
+        "id": "bembidioninfotaxonconcepts000077",
+        "parentid": "bembidioninfotaxonconcepts000076",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion tetracolum",
+        "id": "bembidioninfotaxonconcepts000209",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion ampliceps",
+        "id": "bembidioninfotaxonconcepts000160",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion paraenulum",
+        "id": "bembidioninfotaxonconcepts000290",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Amerizus spectabilis",
+        "id": "bembidioninfotaxonconcepts000012",
+        "parentid": "bembidioninfotaxonconcepts000009",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion perspicuum",
+        "id": "bembidioninfotaxonconcepts000241",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion ephippigerum",
+        "id": "bembidioninfotaxonconcepts000177",
+        "parentid": "bembidioninfotaxonconcepts000176",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha waterfall",
+        "id": "bembidioninfotaxonconcepts000029",
+        "parentid": "bembidioninfotaxonconcepts000025",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion manningense",
+        "id": "bembidioninfotaxonconcepts000388",
+        "parentid": "bembidioninfotaxonconcepts000386",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sulcipenne",
+        "id": "bembidioninfotaxonconcepts000339",
+        "parentid": "bembidioninfotaxonconcepts000334",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sphaeroderum",
+        "id": "bembidioninfotaxonconcepts000061",
+        "parentid": "bembidioninfotaxonconcepts000059",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lenae",
+        "id": "bembidioninfotaxonconcepts000194",
+        "parentid": "bembidioninfotaxonconcepts000191",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion dorsale",
+        "id": "bembidioninfotaxonconcepts000144",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion variegatum",
+        "id": "bembidioninfotaxonconcepts000046",
+        "parentid": "bembidioninfotaxonconcepts000041",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion brevistriatum",
+        "id": "bembidioninfotaxonconcepts000275",
+        "parentid": "bembidioninfotaxonconcepts000274",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion fugax",
+        "id": "bembidioninfotaxonconcepts000405",
+        "parentid": "bembidioninfotaxonconcepts000404",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rufinum",
+        "id": "bembidioninfotaxonconcepts000356",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion tencenti",
+        "id": "bembidioninfotaxonconcepts000079",
+        "parentid": "bembidioninfotaxonconcepts000076",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mckinleyi",
+        "id": "bembidioninfotaxonconcepts000211",
+        "parentid": "bembidioninfotaxonconcepts000210",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion clemens",
+        "id": "bembidioninfotaxonconcepts000162",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sculpturatum",
+        "id": "bembidioninfotaxonconcepts000292",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Amerizus wingatei",
+        "id": "bembidioninfotaxonconcepts000014",
+        "parentid": "bembidioninfotaxonconcepts000009",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion transversale",
+        "id": "bembidioninfotaxonconcepts000243",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion bifossulatum",
+        "id": "bembidioninfotaxonconcepts000309",
+        "parentid": "bembidioninfotaxonconcepts000307",
+        "category": "terminal"
+    },
+    {
+        "name": "Asaphidion alaskanum",
+        "id": "bembidioninfotaxonconcepts000031",
+        "parentid": "bembidioninfotaxonconcepts000030",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion plagiatum",
+        "id": "bembidioninfotaxonconcepts000260",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion viator",
+        "id": "bembidioninfotaxonconcepts000390",
+        "parentid": "bembidioninfotaxonconcepts000386",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion coloradense",
+        "id": "bembidioninfotaxonconcepts000114",
+        "parentid": "bembidioninfotaxonconcepts000112",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion dauricum",
+        "id": "bembidioninfotaxonconcepts000196",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion cooperi",
+        "id": "bembidioninfotaxonconcepts000422",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion jacobianum",
+        "id": "bembidioninfotaxonconcepts000146",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion laxatum",
+        "id": "bembidioninfotaxonconcepts000373",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion latebricola",
+        "id": "bembidioninfotaxonconcepts000096",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion innocuum",
+        "id": "bembidioninfotaxonconcepts000277",
+        "parentid": "bembidioninfotaxonconcepts000274",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion ozarkense",
+        "id": "bembidioninfotaxonconcepts000407",
+        "parentid": "bembidioninfotaxonconcepts000404",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion castor",
+        "id": "bembidioninfotaxonconcepts000131",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sierricola",
+        "id": "bembidioninfotaxonconcepts000358",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion elizabethae",
+        "id": "bembidioninfotaxonconcepts000164",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion alaskense",
+        "id": "bembidioninfotaxonconcepts000294",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lacunarium",
+        "id": "bembidioninfotaxonconcepts000245",
+        "parentid": "bembidioninfotaxonconcepts000244",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion testatum",
+        "id": "bembidioninfotaxonconcepts000375",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion vile",
+        "id": "bembidioninfotaxonconcepts000181",
+        "parentid": "bembidioninfotaxonconcepts000179",
+        "category": "terminal"
+    },
+    {
+        "name": "Asaphidion curtum",
+        "id": "bembidioninfotaxonconcepts000033",
+        "parentid": "bembidioninfotaxonconcepts000030",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion idoneum",
+        "id": "bembidioninfotaxonconcepts000116",
+        "parentid": "bembidioninfotaxonconcepts000112",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion basicorne",
+        "id": "bembidioninfotaxonconcepts000343",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion egens",
+        "id": "bembidioninfotaxonconcepts000065",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion femoratum",
+        "id": "bembidioninfotaxonconcepts000198",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion caliginosum",
+        "id": "bembidioninfotaxonconcepts000148",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion laterimaculatum",
+        "id": "bembidioninfotaxonconcepts000098",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rolandi",
+        "id": "bembidioninfotaxonconcepts000409",
+        "parentid": "bembidioninfotaxonconcepts000404",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion graphicum",
+        "id": "bembidioninfotaxonconcepts000133",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion simplex",
+        "id": "bembidioninfotaxonconcepts000360",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion transparens",
+        "id": "bembidioninfotaxonconcepts000083",
+        "parentid": "bembidioninfotaxonconcepts000081",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion scenicum",
+        "id": "bembidioninfotaxonconcepts000166",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion carinula",
+        "id": "bembidioninfotaxonconcepts000296",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha casta",
+        "id": "bembidioninfotaxonconcepts000018",
+        "parentid": "bembidioninfotaxonconcepts000017",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion texanum",
+        "id": "bembidioninfotaxonconcepts000247",
+        "parentid": "bembidioninfotaxonconcepts000244",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion University Peak",
+        "id": "bembidioninfotaxonconcepts000377",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion scintillans",
+        "id": "bembidioninfotaxonconcepts000101",
+        "parentid": "bembidioninfotaxonconcepts000094",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion haruspex",
+        "id": "bembidioninfotaxonconcepts000328",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion adductum",
+        "id": "bembidioninfotaxonconcepts000050",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion semistriatum",
+        "id": "bembidioninfotaxonconcepts000279",
+        "parentid": "bembidioninfotaxonconcepts000274",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion laticeps",
+        "id": "bembidioninfotaxonconcepts000183",
+        "parentid": "bembidioninfotaxonconcepts000182",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion antiquum",
+        "id": "bembidioninfotaxonconcepts000313",
+        "parentid": "bembidioninfotaxonconcepts000312",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion alpineanum",
+        "id": "bembidioninfotaxonconcepts000264",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr.levigatum",
+        "id": "bembidioninfotaxonconcepts000394",
+        "parentid": "bembidioninfotaxonconcepts000392",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion callens",
+        "id": "bembidioninfotaxonconcepts000118",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion curtulatum",
+        "id": "bembidioninfotaxonconcepts000345",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion impotens",
+        "id": "bembidioninfotaxonconcepts000067",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obscurellum",
+        "id": "bembidioninfotaxonconcepts000200",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Aguascalientes",
+        "id": "bembidioninfotaxonconcepts000426",
+        "parentid": "bembidioninfotaxonconcepts000244",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion oberthueri",
+        "id": "bembidioninfotaxonconcepts000151",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion actuosum",
+        "id": "bembidioninfotaxonconcepts000232",
+        "parentid": "bembidioninfotaxonconcepts000231",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion iridescens",
+        "id": "bembidioninfotaxonconcepts000411",
+        "parentid": "bembidioninfotaxonconcepts000410",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nigripes",
+        "id": "bembidioninfotaxonconcepts000135",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion vandykei",
+        "id": "bembidioninfotaxonconcepts000362",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion convexulum",
+        "id": "bembidioninfotaxonconcepts000085",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion postremum",
+        "id": "bembidioninfotaxonconcepts000217",
+        "parentid": "bembidioninfotaxonconcepts000215",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Lost Lake",
+        "id": "bembidioninfotaxonconcepts000168",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion hesperium",
+        "id": "bembidioninfotaxonconcepts000298",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha disjuncta",
+        "id": "bembidioninfotaxonconcepts000020",
+        "parentid": "bembidioninfotaxonconcepts000017",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion SW Texas",
+        "id": "bembidioninfotaxonconcepts000249",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Akamina",
+        "id": "bembidioninfotaxonconcepts000379",
+        "parentid": "bembidioninfotaxonconcepts000371",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion oregonense",
+        "id": "bembidioninfotaxonconcepts000052",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion chalceum",
+        "id": "bembidioninfotaxonconcepts000315",
+        "parentid": "bembidioninfotaxonconcepts000312",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obtusum",
+        "id": "bembidioninfotaxonconcepts000037",
+        "parentid": "bembidioninfotaxonconcepts000036",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion concolor",
+        "id": "bembidioninfotaxonconcepts000266",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nitidum",
+        "id": "bembidioninfotaxonconcepts000396",
+        "parentid": "bembidioninfotaxonconcepts000392",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion hageni",
+        "id": "bembidioninfotaxonconcepts000120",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "\"Bembidion sp.nr.curtulatum \"\"Alaska\"\"\"",
+        "id": "bembidioninfotaxonconcepts000347",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mimus",
+        "id": "bembidioninfotaxonconcepts000070",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion dark tibia",
+        "id": "bembidioninfotaxonconcepts000428",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion variolosum",
+        "id": "bembidioninfotaxonconcepts000153",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion aenulum",
+        "id": "bembidioninfotaxonconcepts000283",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nevadense",
+        "id": "bembidioninfotaxonconcepts000234",
+        "parentid": "bembidioninfotaxonconcepts000231",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion trechiforme",
+        "id": "bembidioninfotaxonconcepts000413",
+        "parentid": "bembidioninfotaxonconcepts000410",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion semiopacum",
+        "id": "bembidioninfotaxonconcepts000137",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion muscicola",
+        "id": "bembidioninfotaxonconcepts000087",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sordidum",
+        "id": "bembidioninfotaxonconcepts000219",
+        "parentid": "bembidioninfotaxonconcepts000215",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion anguliferum",
+        "id": "bembidioninfotaxonconcepts000170",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lapponicum",
+        "id": "bembidioninfotaxonconcepts000300",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha lindrothellus",
+        "id": "bembidioninfotaxonconcepts000022",
+        "parentid": "bembidioninfotaxonconcepts000017",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion modocianum",
+        "id": "bembidioninfotaxonconcepts000251",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion kuprianovii",
+        "id": "bembidioninfotaxonconcepts000381",
+        "parentid": "bembidioninfotaxonconcepts000380",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion constrictum",
+        "id": "bembidioninfotaxonconcepts000105",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion oppressum",
+        "id": "bembidioninfotaxonconcepts000332",
+        "parentid": "bembidioninfotaxonconcepts000330",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion praecinctum",
+        "id": "bembidioninfotaxonconcepts000054",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lachnophoroides",
+        "id": "bembidioninfotaxonconcepts000187",
+        "parentid": "bembidioninfotaxonconcepts000186",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rothfelsi",
+        "id": "bembidioninfotaxonconcepts000317",
+        "parentid": "bembidioninfotaxonconcepts000312",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion delectum",
+        "id": "bembidioninfotaxonconcepts000039",
+        "parentid": "bembidioninfotaxonconcepts000038",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nigrum",
+        "id": "bembidioninfotaxonconcepts000268",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mormon",
+        "id": "bembidioninfotaxonconcepts000122",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion decrepitum",
+        "id": "bembidioninfotaxonconcepts000349",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion timidum",
+        "id": "bembidioninfotaxonconcepts000072",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion gebleri",
+        "id": "bembidioninfotaxonconcepts000430",
+        "parentid": "bembidioninfotaxonconcepts000330",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion patruele",
+        "id": "bembidioninfotaxonconcepts000155",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion carinatum",
+        "id": "bembidioninfotaxonconcepts000285",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion talus",
+        "id": "bembidioninfotaxonconcepts000236",
+        "parentid": "bembidioninfotaxonconcepts000231",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion horni",
+        "id": "bembidioninfotaxonconcepts000415",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "This species lives in North America from Colorado and New Mexico west through Arizona and Utah to southern California. &nbsp;There are also populations in northern Baja California in Mexico."
+            },
+            {
+                "type": "Habitat",
+                "text": "As is typical for members of subgenus Liocosmius, B. horni occurs on sand or silt shores of creeks and rivers, especially where the bank is steep, and more frequently in shaded areas. For example, under the route 211 bridge over the Gila River in New Mexico, B. horni&nbsp;is common (along with B. &quot;Cooper&#39;s&quot;) on the bank shown in the following picture:&nbsp;"
+            },
+            {
+                "type": "Size",
+                "text": "Body length is 3.2 - 4.1 mm, with larger specimens being found east of California."
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/V100778.Body_.Scale_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Habitat image",
+                "src": "data/media/05.046.JPG"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/V100778.Pronotum.EDF_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Genitalia left image",
+                "src": "data/media/DNA3602.GenLeft.EDF_.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion Tahoe",
+        "id": "bembidioninfotaxonconcepts000139",
+        "parentid": "bembidioninfotaxonconcepts000129",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion compressum",
+        "id": "bembidioninfotaxonconcepts000366",
+        "parentid": "bembidioninfotaxonconcepts000364",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion praticola",
+        "id": "bembidioninfotaxonconcepts000089",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion fortestriatum",
+        "id": "bembidioninfotaxonconcepts000172",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha Bishop",
+        "id": "bembidioninfotaxonconcepts000024",
+        "parentid": "bembidioninfotaxonconcepts000017",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obscuripenne",
+        "id": "bembidioninfotaxonconcepts000253",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion kuprianovii #2",
+        "id": "bembidioninfotaxonconcepts000383",
+        "parentid": "bembidioninfotaxonconcepts000380",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion luculentum",
+        "id": "bembidioninfotaxonconcepts000107",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion palosverdes",
+        "id": "bembidioninfotaxonconcepts000189",
+        "parentid": "bembidioninfotaxonconcepts000182",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion arenobile",
+        "id": "bembidioninfotaxonconcepts000319",
+        "parentid": "bembidioninfotaxonconcepts000318",
+        "category": "terminal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "From the Roanoke River drainage in Virginia south in the Piedmont through North Carolina, South Carolina, Alabama, and Mississippi (Fig. 23). Approximately 580 specimens were studied."
+            },
+            {
+                "type": "Habitat",
+                "text": "Less gravel-or cobble-dependent than most Pseudoperyphus. The most notable feature in common to known sites is the presence of pure, well-drained sand. At some of the known localities this sand has fine gravel mixed in, but at others, including the type locality, the beetles are found on pure sand or sand containing layers of leaf litter, in which the beetles hide. Near Wiggins, Mississippi, and at six of the nine localities in Virginia and North Carolina, specimens were found in the company of an undescribed species related to B. aenulum (maddison and Arnold, in prep.) which itself prefers coarse, well-drained sand shores."
+            },
+            {
+                "type": "Genetics",
+                "text": "Three genes show fixed differences between the Mississippi populations and the North Carolina/Virginia populations: 18S rDNA, differing by one nucleotide; CAD, also differing by one nucleotide; COI, with the populations differing at five nucleotide sites. The population from Mississippi is distinct enough from the North Carolina and Virginia populations in DNA sequences that it may eventually warrant a separate name. However, geographically intermediate localities should be sampled before this is done."
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/arenobV100189Plate.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion recticolle",
+        "id": "bembidioninfotaxonconcepts000270",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lampros",
+        "id": "bembidioninfotaxonconcepts000400",
+        "parentid": "bembidioninfotaxonconcepts000398",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion consimile",
+        "id": "bembidioninfotaxonconcepts000124",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion falsum",
+        "id": "bembidioninfotaxonconcepts000351",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion versicolor",
+        "id": "bembidioninfotaxonconcepts000074",
+        "parentid": "bembidioninfotaxonconcepts000063",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion subinflatum",
+        "id": "bembidioninfotaxonconcepts000206",
+        "parentid": "bembidioninfotaxonconcepts000195",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion coxendix",
+        "id": "bembidioninfotaxonconcepts000287",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lugubre",
+        "id": "bembidioninfotaxonconcepts000238",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion mundum",
+        "id": "bembidioninfotaxonconcepts000417",
+        "parentid": "bembidioninfotaxonconcepts000414",
+        "category": "terminal",
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/V100777.Body_.Scale_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/V100777.Pronotum.EDF_.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion conspersum",
+        "id": "bembidioninfotaxonconcepts000141",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion quadrifoveolatum",
+        "id": "bembidioninfotaxonconcepts000368",
+        "parentid": "bembidioninfotaxonconcepts000364",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rubiginosum",
+        "id": "bembidioninfotaxonconcepts000091",
+        "parentid": "bembidioninfotaxonconcepts000084",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion platynoides",
+        "id": "bembidioninfotaxonconcepts000223",
+        "parentid": "bembidioninfotaxonconcepts000221",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Steens",
+        "id": "bembidioninfotaxonconcepts000174",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion lorquinii",
+        "id": "bembidioninfotaxonconcepts000304",
+        "parentid": "bembidioninfotaxonconcepts000293",
+        "category": "terminal"
+    },
+    {
+        "name": "Lionepha osculans",
+        "id": "bembidioninfotaxonconcepts000026",
+        "parentid": "bembidioninfotaxonconcepts000025",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion ulkei",
+        "id": "bembidioninfotaxonconcepts000255",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion nigrocoeruleum",
+        "id": "bembidioninfotaxonconcepts000385",
+        "parentid": "bembidioninfotaxonconcepts000380",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion viridicolle",
+        "id": "bembidioninfotaxonconcepts000109",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion rusticum",
+        "id": "bembidioninfotaxonconcepts000336",
+        "parentid": "bembidioninfotaxonconcepts000334",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion crurale",
+        "id": "bembidioninfotaxonconcepts000058",
+        "parentid": "bembidioninfotaxonconcepts000049",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion integrum",
+        "id": "bembidioninfotaxonconcepts000321",
+        "parentid": "bembidioninfotaxonconcepts000318",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion immaturum",
+        "id": "bembidioninfotaxonconcepts000043",
+        "parentid": "bembidioninfotaxonconcepts000041",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion salebratum",
+        "id": "bembidioninfotaxonconcepts000272",
+        "parentid": "bembidioninfotaxonconcepts000263",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion obtusidens",
+        "id": "bembidioninfotaxonconcepts000126",
+        "parentid": "bembidioninfotaxonconcepts000117",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion gratiosum",
+        "id": "bembidioninfotaxonconcepts000353",
+        "parentid": "bembidioninfotaxonconcepts000350",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion acutifrons",
+        "id": "bembidioninfotaxonconcepts000159",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion gilae",
+        "id": "bembidioninfotaxonconcepts000289",
+        "parentid": "bembidioninfotaxonconcepts000282",
+        "category": "terminal"
+    },
+    {
+        "name": "Amerizus oblongulus",
+        "id": "bembidioninfotaxonconcepts000011",
+        "parentid": "bembidioninfotaxonconcepts000009",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion pernotum",
+        "id": "bembidioninfotaxonconcepts000240",
+        "parentid": "bembidioninfotaxonconcepts000237",
+        "category": "terminal"
+    },
+    {
+        "name": "texanum species group",
+        "id": "bembidioninfotaxonconcepts000244",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "internal"
+    },
+    {
+        "name": "curtulatum species group",
+        "id": "bembidioninfotaxonconcepts000342",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "erasa species group",
+        "id": "bembidioninfotaxonconcepts000017",
+        "parentid": "bembidioninfotaxonconcepts000016",
+        "category": "internal"
+    },
+    {
+        "name": "nevadense species group",
+        "id": "bembidioninfotaxonconcepts000231",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "internal"
+    },
+    {
+        "name": "chalceum species group",
+        "id": "bembidioninfotaxonconcepts000312",
+        "parentid": "bembidioninfotaxonconcepts000311",
+        "category": "internal"
+    },
+    {
+        "name": "obtusangulum species group",
+        "id": "bembidioninfotaxonconcepts000117",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "internal"
+    },
+    {
+        "name": "fortestriatum species group",
+        "id": "bembidioninfotaxonconcepts000169",
+        "parentid": "bembidioninfotaxonconcepts000157",
+        "category": "internal"
+    },
+    {
+        "name": "kuprianovii species group",
+        "id": "bembidioninfotaxonconcepts000380",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "honestum species group",
+        "id": "bembidioninfotaxonconcepts000318",
+        "parentid": "bembidioninfotaxonconcepts000311",
+        "category": "internal"
+    },
+    {
+        "name": "planiusculum species group",
+        "id": "bembidioninfotaxonconcepts000350",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "transversale species group",
+        "id": "bembidioninfotaxonconcepts000237",
+        "parentid": "bembidioninfotaxonconcepts000230",
+        "category": "internal"
+    },
+    {
+        "name": "osculans species group",
+        "id": "bembidioninfotaxonconcepts000025",
+        "parentid": "bembidioninfotaxonconcepts000016",
+        "category": "internal"
+    },
+    {
+        "name": "connivens species group",
+        "id": "bembidioninfotaxonconcepts000158",
+        "parentid": "bembidioninfotaxonconcepts000157",
+        "category": "internal"
+    },
+    {
+        "name": "occultator species group",
+        "id": "bembidioninfotaxonconcepts000386",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "breve species group",
+        "id": "bembidioninfotaxonconcepts000371",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "rapidum species group",
+        "id": "bembidioninfotaxonconcepts000094",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "internal"
+    },
+    {
+        "name": "coloradense species group",
+        "id": "bembidioninfotaxonconcepts000112",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "internal"
+    },
+    {
+        "name": "graphicum species group",
+        "id": "bembidioninfotaxonconcepts000129",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "internal"
+    },
+    {
+        "name": "contractum species group",
+        "id": "bembidioninfotaxonconcepts000103",
+        "parentid": "bembidioninfotaxonconcepts000093",
+        "category": "internal"
+    },
+    {
+        "name": "turbatum species group",
+        "id": "bembidioninfotaxonconcepts000330",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "arcticum species group",
+        "id": "bembidioninfotaxonconcepts000364",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "prasinum species group",
+        "id": "bembidioninfotaxonconcepts000334",
+        "parentid": "bembidioninfotaxonconcepts000326",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Notaphus)",
+        "id": "bembidioninfotaxonconcepts000093",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Peryphodes)",
+        "id": "bembidioninfotaxonconcepts000176",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Hydriomicrus)",
+        "id": "bembidioninfotaxonconcepts000274",
+        "parentid": "bembidioninfotaxonconcepts000262",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Trichoplataphus)",
+        "id": "bembidioninfotaxonconcepts000404",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Terminophanes)",
+        "id": "bembidioninfotaxonconcepts000210",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Peryphus)",
+        "id": "bembidioninfotaxonconcepts000195",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Bracteon)",
+        "id": "bembidioninfotaxonconcepts000293",
+        "parentid": "bembidioninfotaxonconcepts000281",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Bembidion)",
+        "id": "bembidioninfotaxonconcepts000049",
+        "parentid": "bembidioninfotaxonconcepts000048",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Lymneops)",
+        "id": "bembidioninfotaxonconcepts000182",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Hirmoplataphus)",
+        "id": "bembidioninfotaxonconcepts000263",
+        "parentid": "bembidioninfotaxonconcepts000262",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Trechonepha)",
+        "id": "bembidioninfotaxonconcepts000410",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Semicampa)",
+        "id": "bembidioninfotaxonconcepts000084",
+        "parentid": "bembidioninfotaxonconcepts000080",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Phyla)",
+        "id": "bembidioninfotaxonconcepts000036",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Odontium)",
+        "id": "bembidioninfotaxonconcepts000282",
+        "parentid": "bembidioninfotaxonconcepts000281",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Actedium)",
+        "id": "bembidioninfotaxonconcepts000186",
+        "parentid": "bembidioninfotaxonconcepts000185",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Lindrochthus)",
+        "id": "bembidioninfotaxonconcepts000038",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Liocosmius)",
+        "id": "bembidioninfotaxonconcepts000414",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "Members of the subgenus Liocosmius&nbsp;live in North America from northern Baja California, east to New Mexico, Colorado, and Idaho, and north and west to British Columbia. &nbsp;The greatest diversity is found in California, where all but one species live."
+            },
+            {
+                "type": "Habitat",
+                "text": "With one exception, the habit of Liocosmius&nbsp;is similar among the species: steep, sand or silt banks of rivers and creeks, usually in partly shaded areas. &nbsp;The one exception is Bembidion &quot;SierraStar&quot;, which also occurs on richer organic soil of high-elevation lakes in the Sierra Nevada of California.&nbsp;"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "src": "data/media/V100778.Body_.Scale_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/V100778.Pronotum.EDF_.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Genitalia left image",
+                "src": "data/media/DNA3602.GenLeft.EDF_.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Bembidion (Cillenus)",
+        "id": "bembidioninfotaxonconcepts000188",
+        "parentid": "bembidioninfotaxonconcepts000185",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Cyclolopha)",
+        "id": "bembidioninfotaxonconcepts000059",
+        "parentid": "bembidioninfotaxonconcepts000048",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Lymnaeum)",
+        "id": "bembidioninfotaxonconcepts000226",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Ochthedromus)",
+        "id": "bembidioninfotaxonconcepts000307",
+        "parentid": "bembidioninfotaxonconcepts000281",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Blepharoplataphus)",
+        "id": "bembidioninfotaxonconcepts000324",
+        "parentid": "bembidioninfotaxonconcepts000323",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Leuchydrium)",
+        "id": "bembidioninfotaxonconcepts000228",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Emphanes)",
+        "id": "bembidioninfotaxonconcepts000179",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Furcacampa)",
+        "id": "bembidioninfotaxonconcepts000063",
+        "parentid": "bembidioninfotaxonconcepts000062",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Diplocampa)",
+        "id": "bembidioninfotaxonconcepts000081",
+        "parentid": "bembidioninfotaxonconcepts000080",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Plataphus)",
+        "id": "bembidioninfotaxonconcepts000326",
+        "parentid": "bembidioninfotaxonconcepts000323",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (NearcticClade)",
+        "id": "bembidioninfotaxonconcepts000230",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Pseudoperyphus)",
+        "id": "bembidioninfotaxonconcepts000311",
+        "parentid": "bembidioninfotaxonconcepts000281",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Hydrium)",
+        "id": "bembidioninfotaxonconcepts000392",
+        "parentid": "bembidioninfotaxonconcepts000391",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Asioperyphus)",
+        "id": "bembidioninfotaxonconcepts000215",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Metallina)",
+        "id": "bembidioninfotaxonconcepts000398",
+        "parentid": "bembidioninfotaxonconcepts000391",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Peryphanes)",
+        "id": "bembidioninfotaxonconcepts000221",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Eupetedromus)",
+        "id": "bembidioninfotaxonconcepts000041",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Trepanedoris)",
+        "id": "bembidioninfotaxonconcepts000157",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Amerizus (Amerizus)",
+        "id": "bembidioninfotaxonconcepts000009",
+        "parentid": "bembidioninfotaxonconcepts000008",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Melomalus)",
+        "id": "bembidioninfotaxonconcepts000402",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Neobembidion)",
+        "id": "bembidioninfotaxonconcepts000076",
+        "parentid": "bembidioninfotaxonconcepts000062",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion (Ocydromus)",
+        "id": "bembidioninfotaxonconcepts000191",
+        "parentid": "bembidioninfotaxonconcepts000190",
+        "category": "internal"
+    },
+    {
+        "name": "Plataphus complex",
+        "id": "bembidioninfotaxonconcepts000323",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Furcacampa complex",
+        "id": "bembidioninfotaxonconcepts000062",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Diplocampa complex",
+        "id": "bembidioninfotaxonconcepts000080",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Hydrium complex",
+        "id": "bembidioninfotaxonconcepts000391",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Ocydromus complex",
+        "id": "bembidioninfotaxonconcepts000190",
+        "parentid": "bembidioninfotaxonconcepts000184",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion complex",
+        "id": "bembidioninfotaxonconcepts000048",
+        "parentid": "bembidioninfotaxonconcepts000047",
+        "category": "internal"
+    },
+    {
+        "name": "Hydriomicrus complex",
+        "id": "bembidioninfotaxonconcepts000262",
+        "parentid": "bembidioninfotaxonconcepts000261",
+        "category": "internal"
+    },
+    {
+        "name": "Odontium complex",
+        "id": "bembidioninfotaxonconcepts000281",
+        "parentid": "bembidioninfotaxonconcepts000261",
+        "category": "internal"
+    },
+    {
+        "name": "Princidium complex",
+        "id": "bembidioninfotaxonconcepts000185",
+        "parentid": "bembidioninfotaxonconcepts000184",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion series",
+        "id": "bembidioninfotaxonconcepts000047",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Odontium series",
+        "id": "bembidioninfotaxonconcepts000261",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Ocydromus series",
+        "id": "bembidioninfotaxonconcepts000184",
+        "parentid": "bembidioninfotaxonconcepts000035",
+        "category": "internal"
+    },
+    {
+        "name": "Asaphidion",
+        "id": "bembidioninfotaxonconcepts000030",
+        "parentid": "none",
+        "category": "internal"
+    },
+    {
+        "name": "Amerizus",
+        "id": "bembidioninfotaxonconcepts000008",
+        "parentid": "none",
+        "category": "internal"
+    },
+    {
+        "name": "Lionepha",
+        "id": "bembidioninfotaxonconcepts000016",
+        "parentid": "none",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion",
+        "id": "bembidioninfotaxonconcepts000035",
+        "parentid": "none",
+        "category": "internal"
+    },
+    {
+        "name": "Bembidion nigropiceum",
+        "id": "bembidioninfotaxonconcepts000227",
+        "parentid": "bembidioninfotaxonconcepts000226",
+        "category": "terminal"
+    }
+]

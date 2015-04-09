@@ -112,7 +112,7 @@ function showTaxaList(parentTaxonId) {
 function addTaxaListEvent(targetElementId, taxonId) {
 	$("#" + targetElementId).off(); // remove any previous listenter
 	$("#" + targetElementId).on("click", function() {
-		//console.log("Clicked on id " + eventTargetId + " targeting taxa id " + taxaId);
+		//console.log("Clicked on id " + targetElementId + " targeting taxa id " + taxonId);
 		showTaxaList(taxonId);
 	});
 }
