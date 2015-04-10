@@ -280,6 +280,7 @@ function showTaxon(taxonId) {
 			if (media.hasOwnProperty("type")) {
 				// only support images for now
 				if (media.type == "img" && media.src) { // make sure there is a source listed
+					// TODO: Want to add labels? at least the alt attribute
 					var imageElement = $("<img />");
 					// TODO: add an id?
 					imageElement.addClass("media-img");

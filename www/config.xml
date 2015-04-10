@@ -2,8 +2,8 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 		xmlns:gap	= "http://phonegap.com/ns/1.0"
 		id			= "org.field-guide.bembidion"
-		versionCode	= "2"
-		version		= "1.1.1" >
+		versionCode	= "3"
+		version		= "1.2.0" >
 
 	<name>Field Guide to Bembidion</name>
 

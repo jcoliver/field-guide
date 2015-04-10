@@ -231,6 +231,9 @@ footer {
 /*  ----------------    MEDIA    ----------------  */
 /*  ---------------------------------------------  */
 .media-img {
+	display: block; /*block display and margin auto makes it horizontally centered*/
+	margin-left: auto;
+	margin-right: auto;
 	height: auto;
-	max-width: 100%; /*May cause problems with genitalic images...*/
+	max-width: 100%;
 }
