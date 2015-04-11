@@ -51,6 +51,14 @@ nav {
 	font-size: 3.1em; /*1.285em*/
 }
 
+#taxa-list-title h2 {
+	color: #b7dda6;
+	font-size: 2.8em;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;	
+}
+
 #taxa-list li {
 	border-top: 1px #4e7665 solid;
 	border-bottom: 1px #22322b solid;
@@ -74,8 +82,9 @@ nav {
 	color: #ffffff;
 	width: 82%;
 /*	font-size: 3.1em; /*1.285em*/
-	text-overflow: ellipsis; /*May need to do more styling to get this to work*/
+	text-overflow: ellipsis; /*See white-space comment below*/
 	overflow: hidden;
+/*	white-space: nowrap; *//*Must be uncommented for ellipses to work (restricts display to one line)*/
 }
 
 /*A little square where we put an advance arrow, >, for now, anyways...*/
@@ -154,10 +163,9 @@ header {
 }
 #content-title {
 	color: #ffffff; /* white */
-/*	font-size: 1.05em; /* a little larger than button font */
 /*	padding: 0.5em 0.785em 0.714em;*/
-	font-size: 1.2em;
-	padding: 0.57em 0;
+/*	font-size: 1.2em;*/ /* a little larger than button font */
+	padding: 0.8em 0;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	text-align: center;

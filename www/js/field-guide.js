@@ -55,7 +55,15 @@ function showTaxaList(parentTaxonId) {
 	$("#about-button").off("click");
 	$("#media-button").empty();
 	$("#media-button").off("click");
-	
+
+	if (parentTaxonId == "none") {
+		$("#taxa-list-title").removeClass("current");
+		$("#taxa-list-title").find("h2").empty();
+	} else {
+		$("#taxa-list-title").addClass("current");
+		var $parentName = dataObject[parentTaxonId].name;
+		$("#taxa-list-title").find("h2").text($parentName);
+	}
 	// Also need to clean out any taxon content, but leave the template
 	var taxonElement = $("#taxon");
 	var taxonChildren = taxonElement.children();
@@ -135,25 +143,34 @@ function addTaxonEvent(taxonId) {
  * @param {Boolean} isList - indicates whether a list, in which case the parent name is displayed, or not, in which only Back and Home buttons appear
  */
 function setupTopNav(parentTaxonId, isList) {
+	// Title of current view (i.e. parent for taxa-list) should be moved
+	// to the pages div
+	
 	if (parentTaxonId == "none") {
 		// Starting point.  Turn off back and home buttons
 		$("#back-button").empty();
 		$("#home-button").empty();
 		// Set the title to 'Field Guide'
+/*
 		var contentTitleElement = $("#content-title");
 		contentTitleElement.empty();
 		contentTitleElement.text("Field Guide");
+*/
 		$("#content-title-item").removeClass("fifty"); // so it can stretch out to 100%
+
 	} else { // not the starting point, need to get name of parent
-		document.getElementById("content-title-item").setAttribute("class", "fifty");
+//		document.getElementById("content-title-item").setAttribute("class", "fifty");
 		backButtonTarget = parentTaxonId;
-		$("#content-title").empty();
+		$("#content-title-item").addClass("fifty");
+//		$("#content-title").empty();
 		if (isList) {
-			$("#content-title").text(dataObject[parentTaxonId].name);
+//			$("#content-title").text(dataObject[parentTaxonId].name);
 			backButtonTarget = dataObject[parentTaxonId].parentid; // get the grandparent id
-		} else { // not a list, but a taxon page, so content title will just be empty
+		}
+/*		else { // not a list, but a taxon page, so content title will just be empty
 			$("#content-title").text(" ");
 		}
+*/		
 		fillTopButton("back-button", "Back", backButtonTarget);
 		fillTopButton("home-button", "Home", "none");
 	}
@@ -268,6 +285,10 @@ function showTaxon(taxonId) {
 			}
 		}
 	}
+	
+	// At this point, we will want to add any subspecies; ideally 
+	// using same list-format as for taxa-lists, along with appropriate 
+	// event listener
 	
 	// #media
 	var mediaDiv = $("<div></div>");
