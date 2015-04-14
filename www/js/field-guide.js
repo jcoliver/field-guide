@@ -150,27 +150,16 @@ function setupTopNav(parentTaxonId, isList) {
 		// Starting point.  Turn off back and home buttons
 		$("#back-button").empty();
 		$("#home-button").empty();
-		// Set the title to 'Field Guide'
-/*
-		var contentTitleElement = $("#content-title");
-		contentTitleElement.empty();
-		contentTitleElement.text("Field Guide");
-*/
-		$("#content-title-item").removeClass("fifty"); // so it can stretch out to 100%
+		 // Remove the 'fifty' class so the title can stretch out to 100%
+		$("#content-title-item").removeClass("fifty");
 
 	} else { // not the starting point, need to get name of parent
-//		document.getElementById("content-title-item").setAttribute("class", "fifty");
 		backButtonTarget = parentTaxonId;
 		$("#content-title-item").addClass("fifty");
-//		$("#content-title").empty();
 		if (isList) {
-//			$("#content-title").text(dataObject[parentTaxonId].name);
-			backButtonTarget = dataObject[parentTaxonId].parentid; // get the grandparent id
+			// a list, so get the grandparent id instead
+			backButtonTarget = dataObject[parentTaxonId].parentid;
 		}
-/*		else { // not a list, but a taxon page, so content title will just be empty
-			$("#content-title").text(" ");
-		}
-*/		
 		fillTopButton("back-button", "Back", backButtonTarget);
 		fillTopButton("home-button", "Home", "none");
 	}
@@ -200,20 +189,18 @@ function fillTopButton(buttonElementId, name, taxonId) {
 function setupBottomNav() {
 	$("#about-button").empty();
 	$("#media-button").empty();
-	fillBottomButton("about-button", "About", "#about");
+	fillBottomButton("about-button", "About");
 	addAboutEvent();
-	fillBottomButton("media-button", "Media", "#media");
+	fillBottomButton("media-button", "Media");
 	addMediaEvent();
 }
 
-//TODO: Comments to here
 /**
- * Fill in button in bottom navigation
- * @param {String} elementId
- * @param name
- * @param targetElementId
+ * Fills in button in bottom navigation
+ * @param {String} elementId - unique identifier of the button element, e.g. "about-button"
+ * @param {String} name - text to use for button, e.g. "About"
  */
-function fillBottomButton(elementId, name, targetElementId) {
+function fillBottomButton(elementId, name) {
 	var button = $("#" + elementId);
 	button.empty();
 	var linkElement = $("<a></a>");
@@ -224,6 +211,9 @@ function fillBottomButton(elementId, name, targetElementId) {
 	button.append(linkElement);
 }
 
+/**
+ * Adds click response to #about-button (and turns off any previous listener)
+ */
 function addAboutEvent() {
 	$("#about-button").off("click"); // remove any previous listener
 	$("#about-button").on("click", function() {
@@ -233,6 +223,9 @@ function addAboutEvent() {
 	});
 }
 
+/**
+ * Adds click response to #media-button (and turns off any previous listener)
+ */
 function addMediaEvent() {
 	$("#media-button").off("click"); // remove any previous listener
 	$("#media-button").on("click", function() {
@@ -242,6 +235,10 @@ function addMediaEvent() {
 	})
 }
 
+/**
+ * Displays information about a terminal taxon
+ * @param {String} taxonId - unique identifier for the taxon
+ */
 function showTaxon(taxonId) {
 	// Clear out event listeners
 	$("#back-button").off("click");
@@ -286,7 +283,7 @@ function showTaxon(taxonId) {
 		}
 	}
 	
-	// At this point, we will want to add any subspecies; ideally 
+	// TODO: At this point, we will want to add any subspecies; ideally 
 	// using same list-format as for taxa-lists, along with appropriate 
 	// event listener
 	
@@ -322,8 +319,6 @@ function showTaxon(taxonId) {
 		mediaDiv.append(mediaPlaceholder);
 	}
 	
-	
-
 	// Add those two divs and make the content visible by setting parent div to class = current
 	theTaxon.append(aboutDiv);
 	theTaxon.append(mediaDiv);
