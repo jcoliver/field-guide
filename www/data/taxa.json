@@ -587,6 +587,10 @@
         "id": "bembidioninfotaxonconcepts000376",
         "parentid": "bembidioninfotaxonconcepts000371",
         "category": "terminal"
+            {
+                "type": "Distribution",
+                "text": "California, Oregon, Washington, and other places."
+            },
     },
     {
         "name": "Bembidion rapidum",
