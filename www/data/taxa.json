@@ -1,12 +1,54 @@
 [
     {
-        "name": "Bembidion Carrizo",
+        "name": "Bembidion Bembidion \"Gulf Coast\"",
+        "id": "bembidioninfotaxonconcepts000523",
+        "parentid": "bembidioninfotaxonconcepts000103",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion sp.nr.fortestriatum",
+        "id": "bembidioninfotaxonconcepts000521",
+        "parentid": "bembidioninfotaxonconcepts000169",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion \"elizaclemens\"",
+        "id": "bembidioninfotaxonconcepts000519",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion \"Alamosa\"",
+        "id": "bembidioninfotaxonconcepts000517",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion Bembidion \"Whitewater Creek\"",
+        "id": "bembidioninfotaxonconcepts000522",
+        "parentid": "bembidioninfotaxonconcepts000342",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion \"dark CA clemens\"",
+        "id": "bembidioninfotaxonconcepts000520",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion \"Red Bluff\"",
+        "id": "bembidioninfotaxonconcepts000518",
+        "parentid": "bembidioninfotaxonconcepts000158",
+        "category": "terminal"
+    },
+    {
+        "name": "Bembidion \"Carrizo\"",
         "id": "bembidioninfotaxonconcepts000515",
         "parentid": "bembidioninfotaxonconcepts000093",
         "category": "terminal"
     },
     {
-        "name": "Bembidion Inuvik",
+        "name": "Bembidion \"Inuvik\"",
         "id": "bembidioninfotaxonconcepts000513",
         "parentid": "bembidioninfotaxonconcepts000041",
         "category": "terminal"
@@ -18,19 +60,19 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Kenosha Pass",
+        "name": "Bembidion \"Kenosha Pass\"",
         "id": "bembidioninfotaxonconcepts000516",
         "parentid": "bembidioninfotaxonconcepts000195",
         "category": "terminal"
     },
     {
-        "name": "Bembidion Tioga",
+        "name": "Bembidion \"Tioga\"",
         "id": "bembidioninfotaxonconcepts000514",
         "parentid": "bembidioninfotaxonconcepts000129",
         "category": "terminal"
     },
     {
-        "name": "Bembidion sp.nr. transversale WestCoast light",
+        "name": "Bembidion \"sp.nr. transversale WestCoast light\"",
         "id": "bembidioninfotaxonconcepts000512",
         "parentid": "bembidioninfotaxonconcepts000237",
         "category": "terminal"
@@ -61,15 +103,15 @@
         "descriptions": [
             {
                 "type": "Distribution",
-                "text": "This subspecies occurs from San Francisco in California north to Corvallis, Oregon. &nbsp;There is also apparently one population east of Fresno, California."
+                "text": "'This subspecies occurs from San Francisco in California north to Corvallis, Oregon. &nbsp;There is also apparently one population east of Fresno, California.'"
             },
             {
                 "type": "Habitat",
-                "text": "Found on steep sand banks of creeks and rivers, most commonly in the shade of trees."
+                "text": "'Found on steep sand banks of creeks and rivers, most commonly in the shade of trees.'"
             },
             {
                 "type": "Size",
-                "text": "Body length 3.7-4.2 mm."
+                "text": "'Body length 3.7-4.2 mm.'"
             }
         ],
         "media": [
@@ -114,7 +156,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion mckinleyi Southern",
+        "name": "Bembidion mckinleyi \"Southern\"",
         "id": "bembidioninfotaxonconcepts000214",
         "parentid": "bembidioninfotaxonconcepts000211",
         "category": "terminal"
@@ -169,15 +211,15 @@
         "descriptions": [
             {
                 "type": "Distribution",
-                "text": "Found in southern California, from just south of the Bay Area to the area around San Diego."
+                "text": "'Found in southern California, from just south of the Bay Area to the area around San Diego.'"
             },
             {
                 "type": "Habitat",
-                "text": "Found on steep sand or silt banks of creeks and rivers, often where shaded."
+                "text": "'Found on steep sand or silt banks of creeks and rivers, often where shaded.'"
             },
             {
                 "type": "Size",
-                "text": "Body length 3.5 to 4.5 mm, with most specimens longer than 3.9 mm."
+                "text": "'Body length 3.5 to 4.5 mm, with most specimens longer than 3.9 mm.'"
             }
         ],
         "media": [
@@ -259,7 +301,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Snoqualmie",
+        "name": "Bembidion \"Snoqualmie\"",
         "id": "bembidioninfotaxonconcepts000370",
         "parentid": "bembidioninfotaxonconcepts000364",
         "category": "terminal"
@@ -289,7 +331,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Clearwater",
+        "name": "Bembidion \"Clearwater\"",
         "id": "bembidioninfotaxonconcepts000111",
         "parentid": "bembidioninfotaxonconcepts000103",
         "category": "terminal"
@@ -314,15 +356,15 @@
         "descriptions": [
             {
                 "type": "Distribution",
-                "text": "Found from southern California north to Corvallis, Oregon."
+                "text": "'Found from southern California north to Corvallis, Oregon.'"
             },
             {
                 "type": "Habitat",
-                "text": "Found on steep, sand or silt banks of creeks and rivers, frequently in the shade of trees.&nbsp;"
+                "text": "'Found on steep, sand or silt banks of creeks and rivers, frequently in the shade of trees.&nbsp;'"
             },
             {
                 "type": "Size",
-                "text": "Body length 3.5-4.5 mm, with most specimens 3.8-4.2 mm."
+                "text": "'Body length 3.5-4.5 mm, with most specimens 3.8-4.2 mm.'"
             }
         ],
         "media": [
@@ -475,7 +517,7 @@
         "category": "terminal"
     },
     {
-        "name": "Amerizus Abajo",
+        "name": "Amerizus \"Abajo\"",
         "id": "bembidioninfotaxonconcepts000015",
         "parentid": "bembidioninfotaxonconcepts000009",
         "category": "terminal"
@@ -523,7 +565,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Hastings",
+        "name": "Bembidion \"Hastings\"",
         "id": "bembidioninfotaxonconcepts000423",
         "parentid": "bembidioninfotaxonconcepts000414",
         "category": "terminal"
@@ -559,7 +601,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Cascades",
+        "name": "Bembidion \"Cascades\"",
         "id": "bembidioninfotaxonconcepts000359",
         "parentid": "bembidioninfotaxonconcepts000350",
         "category": "terminal"
@@ -587,10 +629,6 @@
         "id": "bembidioninfotaxonconcepts000376",
         "parentid": "bembidioninfotaxonconcepts000371",
         "category": "terminal"
-            {
-                "type": "Distribution",
-                "text": "California, Oregon, Washington, and other places."
-            },
     },
     {
         "name": "Bembidion rapidum",
@@ -677,16 +715,45 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Pine Canyon",
+        "name": "Bembidion \"Pine Canyon\"",
         "id": "bembidioninfotaxonconcepts000248",
         "parentid": "bembidioninfotaxonconcepts000230",
         "category": "terminal"
     },
     {
-        "name": "Bembidion Franklin Lake",
+        "name": "Bembidion \"Franklin Lake\"",
         "id": "bembidioninfotaxonconcepts000378",
         "parentid": "bembidioninfotaxonconcepts000371",
-        "category": "terminal"
+        "category": "terminal",
+        "descriptions": [
+            {
+                "type": "Distribution",
+                "text": "'This species is known from the southern Sierra Nevada mountains, north to Volcanic Lassen National Park and west to the Trinity Alps in Northern California.'"
+            }
+        ],
+        "media": [
+            {
+                "type": "img",
+                "alt": "Habitus image",
+                "missingsrc": "http://bembidion.info/sites/bembidion.info/files/B. Franklin Lake.Habitus.EDF-2.tiff",
+                "filename": "B._Franklin_Lake.Habitus.EDF-2.tiff"
+            },
+            {
+                "type": "img",
+                "alt": "Habitat image",
+                "src": "data/media/FranklinLakeHabitat1.JPG"
+            },
+            {
+                "type": "img",
+                "alt": "Pronotum image",
+                "src": "data/media/DNA4155.Pronotum.EDF_.tiff.jpg"
+            },
+            {
+                "type": "img",
+                "alt": "Genitalia left image",
+                "src": "data/media/DNA4155.GenLeft.EDF_.tiff.jpg"
+            }
+        ]
     },
     {
         "name": "Bembidion vulpecula",
@@ -707,7 +774,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Jasper",
+        "name": "Bembidion \"Jasper\"",
         "id": "bembidioninfotaxonconcepts000280",
         "parentid": "bembidioninfotaxonconcepts000274",
         "category": "terminal"
@@ -737,7 +804,7 @@
         "category": "terminal"
     },
     {
-        "name": "\"Bembidion sp.nr.curtulatum \"\"Idaho\"\"\"",
+        "name": "Bembidion sp.nr.curtulatum \"Idaho\"",
         "id": "bembidioninfotaxonconcepts000346",
         "parentid": "bembidioninfotaxonconcepts000342",
         "category": "terminal"
@@ -755,7 +822,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Oaxaca",
+        "name": "Bembidion \"Oaxaca\"",
         "id": "bembidioninfotaxonconcepts000427",
         "parentid": "bembidioninfotaxonconcepts000244",
         "category": "terminal"
@@ -839,7 +906,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Desert Spotted",
+        "name": "Bembidion \"Desert Spotted\"",
         "id": "bembidioninfotaxonconcepts000510",
         "parentid": "bembidioninfotaxonconcepts000230",
         "category": "terminal"
@@ -869,7 +936,7 @@
         "category": "terminal"
     },
     {
-        "name": "\"Bembidion sp.nr.curtulatum \"\"Bay Area\"\"\"",
+        "name": "Bembidion sp.nr.curtulatum \"Bay Area\"",
         "id": "bembidioninfotaxonconcepts000348",
         "parentid": "bembidioninfotaxonconcepts000342",
         "category": "terminal"
@@ -881,7 +948,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Puerto Penasco",
+        "name": "Bembidion \"Puerto Penasco\"",
         "id": "bembidioninfotaxonconcepts000429",
         "parentid": "bembidioninfotaxonconcepts000103",
         "category": "terminal"
@@ -905,7 +972,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Corvallis",
+        "name": "Bembidion \"Corvallis\"",
         "id": "bembidioninfotaxonconcepts000138",
         "parentid": "bembidioninfotaxonconcepts000129",
         "category": "terminal"
@@ -959,7 +1026,7 @@
         "category": "terminal"
     },
     {
-        "name": "\"Bembidion sp.nr.oppressum \"\"Sierras\"\"\"",
+        "name": "Bembidion sp.nr.oppressum \"Sierras\"",
         "id": "bembidioninfotaxonconcepts000333",
         "parentid": "bembidioninfotaxonconcepts000330",
         "category": "terminal"
@@ -1122,7 +1189,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Red River",
+        "name": "Bembidion \"Red River\"",
         "id": "bembidioninfotaxonconcepts000207",
         "parentid": "bembidioninfotaxonconcepts000195",
         "category": "terminal"
@@ -1164,7 +1231,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Hannagan",
+        "name": "Bembidion \"Hannagan\"",
         "id": "bembidioninfotaxonconcepts000175",
         "parentid": "bembidioninfotaxonconcepts000169",
         "category": "terminal"
@@ -1284,7 +1351,7 @@
         "category": "terminal"
     },
     {
-        "name": "Lionepha waterfall",
+        "name": "Lionepha \"waterfall\"",
         "id": "bembidioninfotaxonconcepts000029",
         "parentid": "bembidioninfotaxonconcepts000025",
         "category": "terminal"
@@ -1584,7 +1651,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion University Peak",
+        "name": "Bembidion \"University Peak\"",
         "id": "bembidioninfotaxonconcepts000377",
         "parentid": "bembidioninfotaxonconcepts000371",
         "category": "terminal"
@@ -1662,7 +1729,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Aguascalientes",
+        "name": "Bembidion \"Aguascalientes\"",
         "id": "bembidioninfotaxonconcepts000426",
         "parentid": "bembidioninfotaxonconcepts000244",
         "category": "terminal"
@@ -1710,7 +1777,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Lost Lake",
+        "name": "Bembidion \"Lost Lake\"",
         "id": "bembidioninfotaxonconcepts000168",
         "parentid": "bembidioninfotaxonconcepts000158",
         "category": "terminal"
@@ -1728,13 +1795,13 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion SW Texas",
+        "name": "Bembidion \"SW Texas\"",
         "id": "bembidioninfotaxonconcepts000249",
         "parentid": "bembidioninfotaxonconcepts000230",
         "category": "terminal"
     },
     {
-        "name": "Bembidion Akamina",
+        "name": "Bembidion \"Akamina\"",
         "id": "bembidioninfotaxonconcepts000379",
         "parentid": "bembidioninfotaxonconcepts000371",
         "category": "terminal"
@@ -1776,7 +1843,7 @@
         "category": "terminal"
     },
     {
-        "name": "\"Bembidion sp.nr.curtulatum \"\"Alaska\"\"\"",
+        "name": "Bembidion sp.nr.curtulatum \"Alaska\"",
         "id": "bembidioninfotaxonconcepts000347",
         "parentid": "bembidioninfotaxonconcepts000342",
         "category": "terminal"
@@ -1788,7 +1855,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion dark tibia",
+        "name": "Bembidion \"dark tibia\"",
         "id": "bembidioninfotaxonconcepts000428",
         "parentid": "bembidioninfotaxonconcepts000237",
         "category": "terminal"
@@ -1944,7 +2011,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion talus",
+        "name": "Bembidion \"talus\"",
         "id": "bembidioninfotaxonconcepts000236",
         "parentid": "bembidioninfotaxonconcepts000231",
         "category": "terminal"
@@ -1957,15 +2024,15 @@
         "descriptions": [
             {
                 "type": "Distribution",
-                "text": "This species lives in North America from Colorado and New Mexico west through Arizona and Utah to southern California. &nbsp;There are also populations in northern Baja California in Mexico."
+                "text": "'This species lives in North America from Colorado and New Mexico west through Arizona and Utah to southern California. &nbsp;There are also populations in northern Baja California in Mexico.'"
             },
             {
                 "type": "Habitat",
-                "text": "As is typical for members of subgenus Liocosmius, B. horni occurs on sand or silt shores of creeks and rivers, especially where the bank is steep, and more frequently in shaded areas. For example, under the route 211 bridge over the Gila River in New Mexico, B. horni&nbsp;is common (along with B. &quot;Cooper&#39;s&quot;) on the bank shown in the following picture:&nbsp;"
+                "text": "'As is typical for members of subgenus Liocosmius, B. horni occurs on sand or silt shores of creeks and rivers, especially where the bank is steep, and more frequently in shaded areas. For example, under the route 211 bridge over the Gila River in New Mexico, B. horni&nbsp;is common (along with B. &quot;Cooper&#39;s&quot;) on the bank shown in the following picture:&nbsp;'"
             },
             {
                 "type": "Size",
-                "text": "Body length is 3.2 - 4.1 mm, with larger specimens being found east of California."
+                "text": "'Body length is 3.2 - 4.1 mm, with larger specimens being found east of California.'"
             }
         ],
         "media": [
@@ -1992,7 +2059,7 @@
         ]
     },
     {
-        "name": "Bembidion Tahoe",
+        "name": "Bembidion \"Tahoe\"",
         "id": "bembidioninfotaxonconcepts000139",
         "parentid": "bembidioninfotaxonconcepts000129",
         "category": "terminal"
@@ -2016,7 +2083,7 @@
         "category": "terminal"
     },
     {
-        "name": "Lionepha Bishop",
+        "name": "Lionepha \"Bishop\"",
         "id": "bembidioninfotaxonconcepts000024",
         "parentid": "bembidioninfotaxonconcepts000017",
         "category": "terminal"
@@ -2053,23 +2120,18 @@
         "descriptions": [
             {
                 "type": "Distribution",
-                "text": "From the Roanoke River drainage in Virginia south in the Piedmont through North Carolina, South Carolina, Alabama, and Mississippi (Fig. 23). Approximately 580 specimens were studied."
+                "text": "'From the Roanoke River drainage in Virginia south in the Piedmont through North Carolina, South Carolina, Alabama, and Mississippi (Fig. 23). Approximately 580 specimens were studied.'"
             },
             {
                 "type": "Habitat",
-                "text": "Less gravel-or cobble-dependent than most Pseudoperyphus. The most notable feature in common to known sites is the presence of pure, well-drained sand. At some of the known localities this sand has fine gravel mixed in, but at others, including the type locality, the beetles are found on pure sand or sand containing layers of leaf litter, in which the beetles hide. Near Wiggins, Mississippi, and at six of the nine localities in Virginia and North Carolina, specimens were found in the company of an undescribed species related to B. aenulum (maddison and Arnold, in prep.) which itself prefers coarse, well-drained sand shores."
+                "text": "'Less gravel-or cobble-dependent than most Pseudoperyphus. The most notable feature in common to known sites is the presence of pure, well-drained sand. At some of the known localities this sand has fine gravel mixed in, but at others, including the type locality, the beetles are found on pure sand or sand containing layers of leaf litter, in which the beetles hide. Near Wiggins, Mississippi, and at six of the nine localities in Virginia and North Carolina, specimens were found in the company of an undescribed species related to B. aenulum (maddison and Arnold, in prep.) which itself prefers coarse, well-drained sand shores.'"
             },
             {
                 "type": "Genetics",
-                "text": "Three genes show fixed differences between the Mississippi populations and the North Carolina/Virginia populations: 18S rDNA, differing by one nucleotide; CAD, also differing by one nucleotide; COI, with the populations differing at five nucleotide sites. The population from Mississippi is distinct enough from the North Carolina and Virginia populations in DNA sequences that it may eventually warrant a separate name. However, geographically intermediate localities should be sampled before this is done."
+                "text": "'Three genes show fixed differences between the Mississippi populations and the North Carolina/Virginia populations: 18S rDNA, differing by one nucleotide; CAD, also differing by one nucleotide; COI, with the populations differing at five nucleotide sites. The population from Mississippi is distinct enough from the North Carolina and Virginia populations in DNA sequences that it may eventually warrant a separate name. However, geographically intermediate localities should be sampled before this is done.'"
             }
         ],
         "media": [
-            {
-                "type": "img",
-                "alt": "Habitus image",
-                "src": "data/media/arenobV100189Plate.jpg"
-            },
             {
                 "type": "img",
                 "alt": "Pronotum image",
@@ -2168,7 +2230,7 @@
         "category": "terminal"
     },
     {
-        "name": "Bembidion Steens",
+        "name": "Bembidion \"Steens\"",
         "id": "bembidioninfotaxonconcepts000174",
         "parentid": "bembidioninfotaxonconcepts000169",
         "category": "terminal"
@@ -2505,11 +2567,11 @@
         "descriptions": [
             {
                 "type": "Distribution",
-                "text": "Members of the subgenus Liocosmius&nbsp;live in North America from northern Baja California, east to New Mexico, Colorado, and Idaho, and north and west to British Columbia. &nbsp;The greatest diversity is found in California, where all but one species live."
+                "text": "'Members of the subgenus Liocosmius&nbsp;live in North America from northern Baja California, east to New Mexico, Colorado, and Idaho, and north and west to British Columbia. &nbsp;The greatest diversity is found in California, where all but one species live.'"
             },
             {
                 "type": "Habitat",
-                "text": "With one exception, the habit of Liocosmius&nbsp;is similar among the species: steep, sand or silt banks of rivers and creeks, usually in partly shaded areas. &nbsp;The one exception is Bembidion &quot;SierraStar&quot;, which also occurs on richer organic soil of high-elevation lakes in the Sierra Nevada of California.&nbsp;"
+                "text": "'With one exception, the habit of Liocosmius&nbsp;is similar among the species: steep, sand or silt banks of rivers and creeks, usually in partly shaded areas. &nbsp;The one exception is Bembidion &quot;SierraStar&quot;, which also occurs on richer organic soil of high-elevation lakes in the Sierra Nevada of California.&nbsp;'"
             }
         ],
         "media": [
