@@ -4,6 +4,14 @@ var parentChild = {};
 $(document).ready(function(){
 	// Read the JSON data and send to getDataStartApp function
 	// TODO: It woud be useful to evaluate the JSON file to make sure it is valid...
+	// e.g. something like?
+	// try {
+	//   var jsonObject = jQuery.parseJSON(yourJsonString);
+	// } catch(e) {
+	  // handle error 
+	// }
+	// At the very least, add error message to document or quit app.
+
 	$.getJSON("data/taxa.json", getDataStartApp);
 });
 
